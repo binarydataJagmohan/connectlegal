@@ -34,7 +34,7 @@
             <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
             <div class="offcanvas-body">
                 <div class="menu-part">
-                    <center><img src="images/off-logo.png" alt="off-logo" class="off-logo" onclick="open_nav()"> </center>
+                    <center><img src="images/off-logo.png" alt="off-logo" class="off-logo"> </center>
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
@@ -161,11 +161,9 @@
                                     </div>
                                 </a>
                             </div>
-    
                             <div class="offline-lawyers">
                                 <p>Lawyers offline</p>
                             </div>
-    
                             <div class="user-online-g sp-r-l">
                                 <a href="#">
                                     <div class="row">
@@ -206,20 +204,13 @@
         <div id="main">
             <header class="top-header">
                 <div class="container-fluid">
-                    <nav class="navbar navbar-expand-lg navbar-light main-menu">
-                        <span id="open_nav" style="font-size:30px;cursor:pointer"> <i
-                                class="fa-solid fa-bars" onclick=""></i> Connect Legal</span>
-                        <!-- <span id="close_nav" style="display:none;font-size:30px;cursor:pointer" onclick="closeNav()"> <i
-                                class="fa-solid fa-bars" onclick="closeNav()"></i> Connect Legal</span> -->
+                    <nav class="navbar navbar-expand-lg class-center-menu navbar-light main-menu">
                         <div id="mySidenav1" class="offcanvas offcanvas-start" data-bs-scroll="true"
                             data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling"
                             aria-labelledby="offcanvasScrollingLabel">
                             <div class="offcanvas-body">
                                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                                     aria-label="Close"></button>
-    
-    
-    
                             </div>
                         </div>
     
@@ -242,7 +233,7 @@
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse class-cahnge" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
                                     <a class="nav-link" aria-current="page" href="index.html">Home</a>
@@ -518,28 +509,33 @@ $(document).ready(function() {
 });
 </script>
 <script>
-    $("#open_nav").click(function(e){
-        e.preventDefault();
+    $(document).ready(function () {
         document.getElementById("mySidenav").style.width = "300px";
         document.getElementById("main").style.marginLeft = "300px";
-        $("#open_nav").hide();
-        $("#close_nav").show();
-        $(".main_div").attr('id','close_nav_body');
-        return false;
-    })
-  
-    $(document).on("click", '.main_div', function() { 
+        // $(".main-menu ul.navbar-nav li a").css("fontSize", "10px");
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 70) {
+                $(".top-header").addClass("head-fixed");
+            } else {
+                $(".top-header").removeClass("head-fixed");
+            }
+        });
+    });
+</script>
+<script>
+    $("#open_nav").click(function(e){
+        e.preventDefault();
         let w =document.getElementById("mySidenav").style.width;
-        if (w == '350px'){
-        document.getElementById("mySidenav").style.width = "0";
-        document.getElementById("main").style.marginLeft = "0";
-        $("#close_nav").hide();
-        $("#open_nav").show();
-        $("#main_div").removeAttr('onclick');
-        $(".main-menu ul.navbar-nav li a").css("fontSize", "15px");
+        if (w == '' || w == '0px'){
+        document.getElementById("mySidenav").style.width = "300px";
+        document.getElementById("main").style.marginLeft = "300px";
+        // $(".main-menu ul.navbar-nav li a").css("fontSize", "15px");
+        return false;
         }
     })
-  </script>
+
+    
+</script>
 
 </body>
 
