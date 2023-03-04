@@ -5,6 +5,10 @@ body {
     overflow-x: hidden;
 
 }
+#mySidenav::-webkit-scrollbar {
+    width: 1em;
+    background-color: transparent;
+  }
 
 img {
     max-width: 100%;
@@ -761,7 +765,7 @@ a.see-more:hover {
 
 #bg-back {
     position: relative;
-    z-index: -1;
+    z-index: 1;
 }
 
 #bg-back::before {
@@ -882,8 +886,11 @@ p.short-mes {
     text-decoration: none;
 }
 
-img.legal-1 {
+.legal-1 img {
     width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    object-fit: contain;
 }
 
 .user-online-g.box-0 {
@@ -2233,7 +2240,7 @@ ul.social li a {
     }
 
     .width-100 {
-        width: unset !important;
+        width: 100% ;
 
     }
 
@@ -3183,6 +3190,14 @@ i.crown-p {
     .add-450 h1 {
         font-size: 26px !important;
     }
+    div#profile p.name-uaser {
+        font-size: 16px;
+    }.sp-r-l {
+        padding: 0 10px;
+    }
+    h5.mon-txt-cvr {
+        font-size: 16px;
+    }
 
     div#profile p.short-mes {
         font-size: 15px;
@@ -3206,13 +3221,12 @@ i.crown-p {
 }
 
 @media(max-width:1366px) {
-    #accodian-class .accodian-cover {
-        padding: 0px 30px !important;
-    }
-    .question-text h3 {
-        font-size: 22px !important;
-        line-height: 30px;
-    }
+    /* .law-box.prime .eye-pri {
+        color: #fff;
+        width: 30px;
+        font-size: 16px;
+        height: 30px;
+    } */
     .cards p.short-mes {
         font-size: 9px;
     }
@@ -3251,6 +3265,7 @@ i.crown-p {
 
     div#profile p.name-uaser {
         font-size: 16px;
+        line-height: 16px;
     }
 
     #summary-law i.crown-p {
@@ -3303,8 +3318,11 @@ i.crown-p {
     }
 
     select.department.class-width-same {
-        width: 170px;
+        width: 150px;
     }
+    .question-text h3 {
+        font-size: 26px;
+}
 
     .law-box h5 {
         font-size: 25px;
@@ -3350,14 +3368,11 @@ i.crown-p {
         max-width: 460px;
         margin: 15px auto;
     }
-
-
-
 }
 
 @media (max-width:767px) {
     ul.star-part-2 li {
-        font-size: 8px;
+        font-size: 12px;
         padding: 0;
     }
 
@@ -4156,7 +4171,7 @@ ul {
 ul.step-ul li {
     list-style: none;
     display: inline-block;
-    padding: 0 3%;
+    padding: 0 2%;
     position: relative;
 }
 
@@ -4244,7 +4259,7 @@ a.next-step-btn {
     color: #208C84;
     text-decoration: none;
     text-align: center;
-    padding: 12px 20px;
+    padding: 12px 12px;
     width: 50%;
 }
 
@@ -4365,14 +4380,15 @@ h5.any {
     padding: 10px 13px;
     margin-bottom: 30px;
     outline: none;
+    border-radius: inherit;
 }
 
 .firm-info select.mr-ms {
     padding: 13px 13px;
+    margin-bottom: 20px;
     background: none;
-    border-radius: 0;
-    border-bottom: 1px solid #191919;
 }
+
 .select-bg {
     font-weight: 400;
     font-size: 20px;
@@ -4879,7 +4895,6 @@ i.crown-p {
     }
     }
      */
-
 
 
 
@@ -5904,6 +5919,7 @@ div#staticBackdrop.bg-4d4d4d {
     z-index: 99999;
     width: -webkit-fill-available;
 }
+
 @media(max-width:360px) {
     .firm-info select.mr-ms {
         padding: 15px 2px;
@@ -6296,7 +6312,47 @@ ul.your-rating li p {
         font-size: 15px;
         line-height: 60px;
     }
+ .btn-group.classbtn.mt-3.hov-zoom {
+    width: 100%;
+    float: right;
+    margin-bottom: 50px;
+    max-width: 250px;
+}
+.btn-group.mt-3.hov-zoom {
+    width: 100%;
+    max-width: 249px;
+}
+.see-more.seechnage {
+    font-size: 14px;
+}
+.text-slid h2 {
+    font-size: 29px !important;
+    line-height: 40px !important;
+}
 
+.steps {
+height: auto;
+margin-bottom: 10px;
+}
+.card-ali p.name-uaser {
+    font-size: 14px;
+    line-height: 30px;
+}
+.card-ali.mm {
+    left: -44px;
+    width: 200px;
+    height: 60px;
+}
+.cards img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+    .pro-1 h3 {
+        font-size: 35px !important;
+        line-height: 47.36px;
+    }
     .btn-border {
         font-size: 16px;
         width: 165px;
@@ -6345,92 +6401,6 @@ ul.your-rating li p {
 
 
 /* 04-03-2023 */
-/**/
-.bk.bg-edeeca {
-    background: #EDEEC6;
-    border-radius: 10px;
-    padding:   30px;
-}
-.bk.bg-edeeca p.tg {
-    font-size: 18px; 
-}
-
-.bk.bg-edeeca .hed {
-    font-size: 20px; 
-}
-.accounts input.f-input {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 35px;
-    color: #191919;
-}
-.accounts ::placeholder{
-        color: #191919;
-}
-div#pills-tabContent div#form {
-    margin: 0;
-    padding: 0;
-}
-div#staticBackdrop5.back-overlay {
-    background: #000000db;
-}
-
-
-@media (min-width:1400px) {  
-.bk.bg-edeeca {
-    padding: 55px 35px;
-}
-
-
-
-
-}
-
-@media (max-width:767px){
-.bk.bg-edeeca {
-    padding-left: 0;
-    padding-right: 0;
-}
-.Login.accounts {
-    margin-top: 30px;
-}
-.accounts input.f-input { 
-    font-size: 16px; 
-}
-
-}
-
-@media (max-width: 576px){
-.bk.bg-edeeca img.rggggg {
-    position: unset; 
-}
-.bk.bg-edeeca  img.fv { 
-    padding-top: 0; 
-}
-h1.h-tg {
-    font-size: 32px !important;
-    width: 100% !important;
-    line-height: 42.72px !important;
-}
-
-}
-
-@media (max-width: 395px){
-h1.h-tg {
-    font-size: 20px !important;
-    line-height: 25.72px !important;
-    margin: 0 0 10px 0;
-}
-.bk.bg-edeeca p.tg {
-    font-size: 14px;
-    line-height: 22px;
-}
-}
-
-
-
-
-/*today code 03-03-2023*/
 
 
 .img-class-same img {
@@ -6472,7 +6442,9 @@ h1.h-tg {
 .sma-amse{
     position: relative;
 }
-
+i.fa-solid.fa-eye.eye-pri {
+    margin: 0;
+}
   @media(max-width:767px){
     .m-none-menu {
         display: none ; 
@@ -6510,11 +6482,6 @@ a.navbar-brand.menu-a.d-block.d-md-none span {
 
 /*Start.....css.....3-3-2023*/
 
-
-#colver-ehitr.step-p0 {
-    padding-left: 0;
-    padding-right: 0;
-}
 #summary-law p.aed {
     line-height: 25px;
     margin-top: 15px;
@@ -6585,7 +6552,7 @@ li.font-16 {
     margin-top: -40px !important;
 }
 
-.department-width .department{ width: 100% !important;margin:  0 0 10px 0;}
+.department-width .department{ margin:  0 0 10px 0;}
 .ouraccordion .accordion-body {
     padding: 9px 15px !important;
 }
@@ -6631,4 +6598,14 @@ a.next-step-btn {
 }
 
 
+}
+
+
+
+/*today work*/
+.cards.needs img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
 }
