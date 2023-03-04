@@ -5,10 +5,11 @@ body {
     overflow-x: hidden;
 
 }
+
 #mySidenav::-webkit-scrollbar {
     width: 1em;
     background-color: transparent;
-  }
+}
 
 img {
     max-width: 100%;
@@ -2240,7 +2241,7 @@ ul.social li a {
     }
 
     .width-100 {
-        width: 100% ;
+        width: 100%;
 
     }
 
@@ -3190,11 +3191,15 @@ i.crown-p {
     .add-450 h1 {
         font-size: 26px !important;
     }
+
     div#profile p.name-uaser {
         font-size: 16px;
-    }.sp-r-l {
+    }
+
+    .sp-r-l {
         padding: 0 10px;
     }
+
     h5.mon-txt-cvr {
         font-size: 16px;
     }
@@ -3221,6 +3226,7 @@ i.crown-p {
 }
 
 @media(max-width:1366px) {
+
     /* .law-box.prime .eye-pri {
         color: #fff;
         width: 30px;
@@ -3230,6 +3236,7 @@ i.crown-p {
     .cards p.short-mes {
         font-size: 9px;
     }
+
     .cards p.name-uaser {
         font-size: 14px;
     }
@@ -3320,9 +3327,10 @@ i.crown-p {
     select.department.class-width-same {
         width: 150px;
     }
+
     .question-text h3 {
         font-size: 26px;
-}
+    }
 
     .law-box h5 {
         font-size: 25px;
@@ -5963,11 +5971,12 @@ div#staticBackdrop.bg-4d4d4d {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 9999;
     top: 0;
     left: 0;
     overflow-x: hidden;
     transition: 0.5s;
+    background-color: #fff;
 }
 
 .sidenav a {
@@ -6312,47 +6321,56 @@ ul.your-rating li p {
         font-size: 15px;
         line-height: 60px;
     }
- .btn-group.classbtn.mt-3.hov-zoom {
-    width: 100%;
-    float: right;
-    margin-bottom: 50px;
-    max-width: 250px;
-}
-.btn-group.mt-3.hov-zoom {
-    width: 100%;
-    max-width: 249px;
-}
-.see-more.seechnage {
-    font-size: 14px;
-}
-.text-slid h2 {
-    font-size: 29px !important;
-    line-height: 40px !important;
-}
 
-.steps {
-height: auto;
-margin-bottom: 10px;
-}
-.card-ali p.name-uaser {
-    font-size: 14px;
-    line-height: 30px;
-}
-.card-ali.mm {
-    left: -44px;
-    width: 200px;
-    height: 60px;
-}
-.cards img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50px;
-    object-fit: cover;
-}
+    .btn-group.classbtn.mt-3.hov-zoom {
+        width: 100%;
+        float: right;
+        margin-bottom: 50px;
+        max-width: 250px;
+    }
+
+    .btn-group.mt-3.hov-zoom {
+        width: 100%;
+        max-width: 249px;
+    }
+
+    .see-more.seechnage {
+        font-size: 14px;
+    }
+
+    .text-slid h2 {
+        font-size: 29px !important;
+        line-height: 40px !important;
+    }
+
+    .steps {
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .card-ali p.name-uaser {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .card-ali.mm {
+        left: -44px;
+        width: 200px;
+        height: 60px;
+    }
+
+    .cards img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+        object-fit: cover;
+    }
+
     .pro-1 h3 {
         font-size: 35px !important;
         line-height: 47.36px;
     }
+
     .btn-border {
         font-size: 16px;
         width: 165px;
@@ -6433,51 +6451,100 @@ margin-bottom: 10px;
     text-align: left;
 
 }
+
 .sma-amse img {
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 50px;
 }
-.sma-amse{
+
+.sma-amse {
     position: relative;
 }
+
 i.fa-solid.fa-eye.eye-pri {
     margin: 0;
 }
-  @media(max-width:767px){
+
+
+@media(max-width:1200px) {
     .m-none-menu {
-        display: none ; 
+        display: none;
     }
+
     div#main {
         margin-left: 0 !important;
+    }
+
+    .navbar-toggler {
+        display: none;
     }
 
     div#mySidenav {
         background: #fff;
         width: 100% !important;
     }
-    a.navbar-brand.menu-a.d-block.d-md-none {
+
+    a.navbar-brand.menu-a {
         color: #fff;
         padding: 20px 0px;
     }
-    p.close-top.d-block.d-md-none {
+
+    p.close-top {
         position: absolute;
-        top: 6px;
-        right: 20px;
+        top: 40px;
+        width: 40px;
+        height: 40px;
+        background: #3dc9a1;
+        right: 10px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
     }
-#padding-0 .navbar{
-padding: 0 !important;
-}
-a.navbar-brand.menu-a.d-block.d-md-none span {
-    margin-left: 40px;
-    font-size: 25px;
-}
-#padding-0 .navbar-brand {
- margin-right: 0px; 
+
+    #padding-0 .navbar {
+        padding: 0 !important;
+    }
+
+    a.navbar-brand.menu-a span {
+        margin-left: 40px;
+        font-size: 25px;
+    }
+
+    #padding-0 .navbar-brand {
+        margin-right: 0px;
+    }
+
+    nav.navbar.navbar-expand-lg.class-center-menu.navbar-light.main-menu {
+        display: none;
+    }
+
+    header.top-header {
+        padding: 30px 0px;
+    }
+
+    img.off-logo {
+        width: 40%;
+        padding: 0px 25px;
+        padding-bottom: 30px;
+    }
 }
 
-}  
+@media(min-width:1200px) {
+    .close-top {
+        display: none;
+    }
+
+    a.navbar-brand.menu-a {
+        display: none;
+    }
+}
+
+/* @media(max-width:767px){
+
+
+}   */
 
 
 /*Start.....css.....3-3-2023*/
@@ -6486,43 +6553,48 @@ a.navbar-brand.menu-a.d-block.d-md-none span {
     line-height: 25px;
     margin-top: 15px;
 }
+
 #summary-law ul.star-part-2 li {
     font-size: 7px;
     padding: 0 0px;
 }
 
 @media (min-width:1600px) {
-#summary-law ul.star-part-2 li {
-    font-size: 10px; 
-}
+    #summary-law ul.star-part-2 li {
+        font-size: 10px;
+    }
 
 }
 
-@media (min-width:1000px) and (max-width:1030px) { 
-#bg-img { 
-    height: 425px; 
-}
-a.next-step-btn.back { 
-    padding: 9px 10px;
-}
+@media (min-width:1000px) and (max-width:1030px) {
+    #bg-img {
+        height: 425px;
+    }
+
+    a.next-step-btn.back {
+        padding: 9px 10px;
+    }
 
 }
 
 @media (min-width:768px) {
-.br-dask br{display: none;}
+    .br-dask br {
+        display: none;
+    }
 
 
 
 }
 
 @media (max-width:1100px) {
-#summary-law p.aed {
-    line-height: 11px; 
-}
-#summary-law ul.star-part-2 li {
-    font-size: 7px !important; 
-    padding: 0 0px;
-}
+    #summary-law p.aed {
+        line-height: 11px;
+    }
+
+    #summary-law ul.star-part-2 li {
+        font-size: 7px !important;
+        padding: 0 0px;
+    }
 
 
 
@@ -6530,72 +6602,91 @@ a.next-step-btn.back {
 }
 
 @media (max-width:980px) {
-.abu { 
-    padding: 20px 6px;
-}
-a.next-step-btn.back { 
-    padding: 9px 10px;
-}
-.li-list li {
-    font-size: 16px !important; 
-}
-li.font-16 {
-    font-size: 17px !important; 
-    line-height: 25px !important; 
-}
+    .abu {
+        padding: 20px 6px;
+    }
+
+    a.next-step-btn.back {
+        padding: 9px 10px;
+    }
+
+    .li-list li {
+        font-size: 16px !important;
+    }
+
+    li.font-16 {
+        font-size: 17px !important;
+        line-height: 25px !important;
+    }
 
 
 }
 
 @media (max-width:767px) {
-.m-mr-top {
-    margin-top: -40px !important;
-}
+    .m-mr-top {
+        margin-top: -40px !important;
+    }
+    img.off-logo {
+        width: 90% !important;
+        padding: 0px 25px;
+        padding-bottom: 30px;
+    }
 
-.department-width .department{ margin:  0 0 10px 0;}
-.ouraccordion .accordion-body {
-    padding: 9px 15px !important;
-}
-.ouraccordion .accordion-body a.Generatebtn {
-    font-size: 20px;
-    text-align: center;
-}
-h1.moni.br-dask {
-    line-height: 47px;
-}
-.select-w.elect-w2 select {
-    width: 55%;
-}
-.select-w select {
-    height: 36px;
-}
-.searchfild.m-mines {
-    margin-top: -62px;
-}
-.i-accept.i-ac label {
-    font-size: 10px;
-}
+    .department-width .department {
+        margin: 0 0 10px 0;
+    }
+
+    .ouraccordion .accordion-body {
+        padding: 9px 15px !important;
+    }
+
+    .ouraccordion .accordion-body a.Generatebtn {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h1.moni.br-dask {
+        line-height: 47px;
+    }
+
+    .select-w.elect-w2 select {
+        width: 55%;
+    }
+
+    .select-w select {
+        height: 36px;
+    }
+
+    .searchfild.m-mines {
+        margin-top: -62px;
+    }
+
+    .i-accept.i-ac label {
+        font-size: 10px;
+    }
 
 
 }
 
 @media (max-width:396px) {
-.i-accept.i-ac label {
-    font-size: 7px;
-}
+    .i-accept.i-ac label {
+        font-size: 7px;
+    }
 
 }
 
 @media (max-width:360px) {
-.ouraccordion .accordion-body a.Generatebtn {
-    font-size: 16px; 
-}
-.i-accept.i-ac label {
-    font-size: 6px;
-}
-a.next-step-btn {
-    font-size: 12px !important; 
-}
+    .ouraccordion .accordion-body a.Generatebtn {
+        font-size: 16px;
+    }
+
+    .i-accept.i-ac label {
+        font-size: 6px;
+    }
+
+    a.next-step-btn {
+        font-size: 12px !important;
+    }
 
 
 }
