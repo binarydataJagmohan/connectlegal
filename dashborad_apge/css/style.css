@@ -3228,14 +3228,14 @@ ul.note-why li {
 }
 
 .plus-icn-servie h1 {
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
     color: #156075;
     margin: 0px;
-
+    padding: 5px 9px;
 }
 
 .plus-icn-servie img {
