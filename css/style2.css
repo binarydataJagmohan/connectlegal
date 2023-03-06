@@ -5173,3 +5173,15 @@ button.btn.btn-secondary.bg-btn-1 {
 .sma-amse {
     position: relative;
 }
+
+
+@media(max-width:767px) {
+.form-horizontal-class { 
+    padding: 20px; 
+}
+
+
+}
+
+
+

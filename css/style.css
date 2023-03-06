@@ -3443,9 +3443,18 @@ i.crown-p {
         font-size: 26px;
     }
     .text-right.search-drop.withsamesize .department {
-        width: 110px !important;
+        width: 130px !important;
 
     }
+    ul.star-part-2.fa-start-des li {
+    font-size: 9px;
+}
+.dropdown-toggle.btn-ope {
+    margin-right: 5px;
+}
+
+
+
 
 
 }
