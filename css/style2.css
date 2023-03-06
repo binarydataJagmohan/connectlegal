@@ -1,6 +1,7 @@
 body {
     font-family: poppins, sans-serif;
     color: #191919;
+    overflow-x: hidden;
 }
 
 #buttonid button.accordion-button.collapsed {
@@ -155,9 +156,9 @@ h1.mb-3 {
     font-weight: 400;
 }
 
-#accodian-class .accodian-cover {
+/* #accodian-class .accodian-cover {
     padding: 0px 60px !important;
-}
+} */
 
 div#login-id input::placeholder {
     font-size: 20px;
@@ -256,7 +257,7 @@ i.fa-solid.fa-eye.view-icon {
     border: 1px solid #208C84;
     color: #fff;
     background:#208C84;
-    padding: 10px 30px;
+    padding: 10px 40px;
 }
 .Generatebtn.addclassstyle:hover{
     color: #fff;
@@ -401,6 +402,7 @@ p.txt-lorm {
 }
 
 h1.lyr-txxt {
+    padding-top: 100px;
     font-size: 35px;
     font-weight: 700;
 }
@@ -418,7 +420,7 @@ p.txt-layer {
 .bodr {
     border: 1px solid #208C8480;
     background: white;
-    padding:25px 10px;
+    padding: 50px 35px;
 
 }
 
@@ -670,7 +672,7 @@ select#positon {
         font-size: 25px;;
     }
     h5.mon-txt-cvr {
-        font-size: 10px;
+        font-size: 12px;
     }
     h6.mon-cvr {
         font-size: 12px;
@@ -1109,7 +1111,7 @@ a.img-dott img {
     background: #FEFFE8;
     border: 1px solid #FFAC33;
     border-radius: 10px;
-    padding: 40px;
+    padding: 20px;
     transition: all 0.6s;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
@@ -1136,7 +1138,7 @@ div#postin {
 
 .question-text h3 {
     font-family: Poppins;
-    font-size: 27px;
+    font-size: 28px;
     font-weight: 500;
     line-height: 35px;
     letter-spacing: 0em;
@@ -1231,7 +1233,7 @@ p {
         margin-top: 35px;
     }
 
-      .question-text h3 {
+    .question-text h3 {
         font-size: 20px;
         line-height: 25px;
     }
@@ -1717,12 +1719,6 @@ li {
     #summary-law ul.star-part-2{
         margin-top: 0px !important;
     }
-    .text-center.was-validated {
-    max-width: 100%;
-display: flex;
-justify-content: center;
-}
-
 }
 
 
@@ -2274,7 +2270,7 @@ ul.star-part-2 li {
     display: inline-block;
     color: #FFAC33;
     padding: 0 1px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
 i.crown-p {
@@ -2375,7 +2371,7 @@ ul.star-part-2 {
     border: 1px solid #3DC9A1;
     border-radius: 26px;
     text-align: center;
-    /* height: 30px; */
+    height: 30px;
 }
 
 .rev-35 {
@@ -2404,37 +2400,12 @@ p.en {
     line-height: 35px;
 }
 
-#cupstart{
-    position: relative;
-}
-i.fa-solid.fa-crown.crown-p {
-    position: absolute;
-     bottom: 0px;
-}
+
 
 @media(max-width:1366px) {
     .law-box {
         padding: 20px;
     }
-        ul#star-part li {
-        font-size: 9px !important;
-    }
-    #rewivw .rev-35 {
-    font-size: 10px !important;
-}
-div#cupstart i {
-    font-size: 14px;
-}
-#cupstart{
-    position: relative;
-}
-i.fa-solid.fa-crown.crown-p {
-    position: absolute;
-     bottom: 0px;
-}
-    .question-text p {
-    font-size: 15px;
-}
     .law-box {
         height: auto;
     }
@@ -4015,8 +3986,8 @@ img.fav-icon {
 i.crown-p {
     color: #ffac33;
     position: absolute;
-    bottom: 9px;
-    font-size: 37px;
+    bottom: 0px;
+    font-size: 25px;
     right: 20px;
 }
 
