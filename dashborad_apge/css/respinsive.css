@@ -1312,7 +1312,7 @@
 
     .table-responsive table.table {
         width: 320px;
-        display: block;
+/*        display: block;*/
         overflow-x: auto;
         white-space: nowrap;
     }
@@ -2080,12 +2080,8 @@ div#view-1024-100 {
 .working-box {
     padding: 20px;
 }
-a.dot4 {
-    border: 1px solid #208C84;
-    border-radius: 27.5px;
-    padding: 10px 15px;
-    color: #208C84;
-    transition: 0.5s;
+a.dot4 { 
+    padding: 10px 15px; 
     margin: 0px 5px;
 }
 
