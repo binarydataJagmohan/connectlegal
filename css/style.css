@@ -6363,7 +6363,7 @@ ul.your-rating li p {
     }
 
     .text-slid h2 {
-        font-size: 29px !important;
+        font-size: 20px !important;
         line-height: 40px !important;
     }
 
@@ -6745,14 +6745,55 @@ ul.star-part.part-1 li {
     border-radius: 50px;
     padding: 5px 10px;
 }
-
-
-
+h1.aed-class.text-left-side {
+    text-align: right;
+}
+.main-tabs ul#pills-tab {
+    overflow-x: unset; 
+}
+.main-tabs {
+    position: absolute;
+    right: 0;
+}
+.nav-pills.calss-pull .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: unset  !important;
+}
+.main-tabs .nav-link{
+    padding: 0px 4px;
+}
 @media(max-width:767px){
     .reviwesclass p {
         font-size: 6px;
     }
     ul.star-part.part-1 li {
         font-size: 10px;
+    }
+    h1.aed-class.text-left-side {
+        text-align: left;
+    }
+    #heire .question-text {
+        padding: 25px 10px 43px 10px;
+    }
+    #heire .question-text.class-add {
+        padding: 25px 10px 43px 15px;
+    }
+    h1.font-64 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .btn-group.mt-3.hov-zoom {
+        width: 68%;
+        max-width: 249px;
+    }
+    a.btn.btn-3cc7a0 {
+        display: block;
+        width: 20%;
+    }
+    .font-45 {
+        font-size: 22px;
+    }
+    .about-part.bg-F4FEFA{
+        padding-bottom: 0px;
     }
 }
