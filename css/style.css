@@ -6363,7 +6363,11 @@ ul.your-rating li p {
     }
 
     .text-slid h2 {
+<<<<<<< HEAD
         font-size: 20px !important;
+=======
+        font-size: 29px !important;
+>>>>>>> prabhat_code
         line-height: 40px !important;
     }
 
@@ -6529,6 +6533,74 @@ i.fa-solid.fa-eye.eye-pri {
 
     #padding-0 .navbar {
         padding: 0 !important;
+<<<<<<< HEAD
+    }
+
+    a.navbar-brand.menu-a span {
+        margin-left: 40px;
+        font-size: 25px;
+    }
+
+    #padding-0 .navbar-brand {
+        margin-right: 0px;
+    }
+
+    nav.navbar.navbar-expand-lg.class-center-menu.navbar-light.main-menu {
+        display: none;
+    }
+
+    header.top-header {
+        padding: 30px 0px;
+    }
+
+    img.off-logo {
+        width: 40%;
+        padding: 0px 25px;
+        padding-bottom: 30px;
+    }
+}
+
+@media(min-width:1200px) {
+    .close-top {
+        display: none;
+    }
+
+    a.navbar-brand.menu-a {
+        display: none;
+    }
+}
+
+/* @media(max-width:767px){
+
+
+}   */
+
+
+/*Start.....css.....3-3-2023*/
+
+#summary-law p.aed {
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+#summary-law ul.star-part-2 li {
+    font-size: 7px;
+    padding: 0 0px;
+}
+
+@media (min-width:1600px) {
+    #summary-law ul.star-part-2 li {
+        font-size: 10px;
+    }
+
+}
+
+@media (min-width:1000px) and (max-width:1030px) {
+    #bg-img {
+        height: 425px;
+    }
+
+=======
     }
 
     a.navbar-brand.menu-a span {
@@ -6630,6 +6702,99 @@ i.fa-solid.fa-eye.eye-pri {
         padding: 20px 6px;
     }
 
+>>>>>>> prabhat_code
+    a.next-step-btn.back {
+        padding: 9px 10px;
+    }
+
+<<<<<<< HEAD
+}
+
+@media (min-width:768px) {
+    .br-dask br {
+        display: none;
+    }
+
+=======
+    .li-list li {
+        font-size: 16px !important;
+    }
+
+    li.font-16 {
+        font-size: 17px !important;
+        line-height: 25px !important;
+    }
+>>>>>>> prabhat_code
+
+
+}
+
+<<<<<<< HEAD
+@media (max-width:1100px) {
+    #summary-law p.aed {
+        line-height: 11px;
+    }
+
+    #summary-law ul.star-part-2 li {
+        font-size: 7px !important;
+        padding: 0 0px;
+    }
+
+
+=======
+@media (max-width:767px) {
+    .m-mr-top {
+        margin-top: -40px !important;
+    }
+    img.off-logo {
+        width: 90% !important;
+        padding: 0px 25px;
+        padding-bottom: 30px;
+    }
+
+    .department-width .department {
+        margin: 0 0 10px 0;
+    }
+
+    .ouraccordion .accordion-body {
+        padding: 9px 15px !important;
+    }
+
+    .ouraccordion .accordion-body a.Generatebtn {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h1.moni.br-dask {
+        line-height: 47px;
+    }
+
+    .select-w.elect-w2 select {
+        width: 55%;
+    }
+
+    .select-w select {
+        height: 36px;
+    }
+
+    .searchfild.m-mines {
+        margin-top: -62px;
+    }
+
+    .i-accept.i-ac label {
+        font-size: 10px;
+    }
+>>>>>>> prabhat_code
+
+
+}
+
+<<<<<<< HEAD
+@media (max-width:980px) {
+    .abu {
+        padding: 20px 6px;
+    }
+
     a.next-step-btn.back {
         padding: 9px 10px;
     }
@@ -6699,6 +6864,15 @@ i.fa-solid.fa-eye.eye-pri {
 
 }
 
+=======
+@media (max-width:396px) {
+    .i-accept.i-ac label {
+        font-size: 7px;
+    }
+
+}
+
+>>>>>>> prabhat_code
 @media (max-width:360px) {
     .ouraccordion .accordion-body a.Generatebtn {
         font-size: 16px;
@@ -6723,6 +6897,7 @@ i.fa-solid.fa-eye.eye-pri {
     height: 50px;
     border-radius: 50px;
     object-fit: cover;
+<<<<<<< HEAD
 }
 ul.star-part.part-1 li {
     padding: 0px 0px;
@@ -6785,3 +6960,6 @@ h1.aed-class.text-left-side {
         padding-bottom: 0px;
     }
 }
+=======
+}
+>>>>>>> prabhat_code

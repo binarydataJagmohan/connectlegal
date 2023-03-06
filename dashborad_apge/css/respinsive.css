@@ -385,7 +385,7 @@
     }
 
     .names.color-change span {
-        font-size: 8px;
+        font-size: 14px;
     }
 }
 
@@ -2033,3 +2033,148 @@
         font-size: 8px;
     }
 }
+
+
+
+/*Start...........6-3-2023*/
+
+@media(max-width:1200px) {
+.d-flex1 span, p {
+    font-size: 16px !important; 
+}
+.d-flex1.class-add li h1 {
+    font-size: 16px !important; 
+
+}
+.d-flex1 h2 {
+    font-size: 16px !important;
+}
+ul.menu-left li a { 
+    padding: 5px 20px !important; 
+    font-size: 15px !important;
+    line-height: 35.6px !important; 
+}
+.d-flex1 li {
+    padding: 10px 15px !important;
+}
+.top-sp- {
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+
+.names.color-change span {
+    font-size: 11px;
+    line-height: 1.2;
+}
+.names.color-change p {
+    font-size: 16px;
+    line-height: 1.4;
+}
+ .booked.bg-none h4 {
+    font-size: 18px !important;
+} 
+div#view-1024-100 {
+    width: 100%;
+    margin-bottom: 17px;
+}
+.working-box {
+    padding: 20px;
+}
+a.dot4 {
+    border: 1px solid #208C84;
+    border-radius: 27.5px;
+    padding: 10px 15px;
+    color: #208C84;
+    transition: 0.5s;
+    margin: 0px 5px;
+}
+
+
+}
+
+
+@media(max-width:991px) {
+.sidebar-expanded {
+    width: 210px;
+}
+ul.menu-left li a {
+    padding: 5px 10px !important;
+    font-size: 13px !important;
+    line-height: 31.6px !important;
+}
+img.user-li {
+    width: 50px;
+    height: 50px;
+}
+
+
+}
+
+
+@media(max-width:767px) {
+.working-box {
+    padding: 10px;
+}
+.d-flex1.class-add li h1 {
+    font-size: 14px !important;
+}
+.d-flex1 h2 {
+    font-size: 14px !important;
+}
+ul.d-flex1 li.sp-ek {
+    padding: 6px 18px !important;
+}
+.community-text1 .form {
+    padding: 10px;
+}
+.button-gropup img { 
+    height: 15px; 
+}
+input.form-control {
+    font-size: 10px;
+}
+
+
+
+}
+
+
+@media(max-width:403px) {
+.d-flex1 li {
+    padding: 7px 8px !important;
+}
+.d-flex1.class-add li h1 {
+    font-size: 12px !important;
+}
+.d-flex1 h2 {
+    font-size: 12px !important;
+}
+.d-flex1 span, li  p {
+    font-size: 12px !important;
+}
+.community-text2 { 
+    padding: 10px;
+}
+
+
+
+
+}
+
+
+@media(max-width:350px) {
+.d-flex1.class-add li h1 {
+    font-size: 10px !important;
+}
+.d-flex1 h2 {
+    font-size: 10px !important;
+}
+.d-flex1 span, li  p {
+    font-size: 10px !important;
+}
+
+
+}
+
+
+

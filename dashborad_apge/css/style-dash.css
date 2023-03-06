@@ -847,5 +847,125 @@ a.list-group-item.mmmm {
 }
 
 
+/*Start...........6-3-2023*/
+.table-group-divider tr td {  
+    text-align: center; 
+}
+thead.thead-th th { 
+    text-align: center !important; 
+}
+.d-flex.time-class.plue {
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.varticatl-tabs a.publish_post.btn-class-submit {
+    padding: 10px 5px;
+}
 
 
+
+
+@media(min-width:1700px) {
+.table-group-divider tr td { 
+    font-size: 18px;  
+}
+ul.note-why li { 
+    font-size: 14px !important; 
+} 
+.chat-slots-left div {
+    font-size: 20px !important;
+}
+
+}
+ 
+@media(max-width:1400px) {
+.table-group-divider tr td {
+    font-size: 14px;
+}
+.table-group-divider th {
+    font-size: 14px !important;  
+    padding: 14px !important;
+    text-align: center;
+}
+tbody.table-group-divider th {
+    padding-left: 14px !important;
+}
+
+
+}
+
+@media(max-width:1199px) {
+thead.thead-th th {
+    font-size: 12px !important;
+}
+.table-group-divider tr td {
+    font-size: 10px;
+}
+.table-group-divider th {
+    font-size: 10px !important; 
+}
+.table-group-divider tr td {
+    font-size: 10px;
+}
+#service-pages h4 {
+    font-size: 22px; 
+}
+.plus-icn-servie h1 {
+    font-size: 17px !important; 
+}
+.plus-icn-servie img { 
+    margin-right: 6px;
+}
+
+ 
+
+
+
+}
+
+@media(max-width:1024px) {
+.working-box {
+    padding: 20px;
+}
+.lawyers-part-2 a.dot4 { 
+    padding:8px 12px !important; 
+    margin: 0px 5px;
+}
+
+
+}
+
+@media(max-width:991px) {
+.table-wdes table.table { 
+    display: unset !important;
+}
+
+.table-group-divider tr td {
+    font-size: 12px;
+}
+.table-group-divider th {
+    font-size: 12px !important; 
+}
+ .table-wdes {
+    margin-top: 15px;
+}
+
+
+}
+
+@media(max-width:767px) {
+.lawyers-part-2 a.dot4 {
+    padding: 4px 7px !important;
+    margin: 0px 4px;
+    font-size: 11px;
+}
+.plus-icn-servie { 
+    padding: 0 9px !important; 
+}
+
+
+
+
+
+}

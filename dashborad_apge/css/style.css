@@ -4032,10 +4032,22 @@ button:focus {
 }
 } */
 
+@media(max-width:768px){
+    .chatlist {
+        width: 100%;
+    }
+
+}
 @media (max-width: 767px) {
     .chat-icon {
         display: block;
         margin-right: 25px;
+    }
+    .flex-shrink-0.img-width img {
+        width: 34px;
+        height: 34px;
+        border-radius: 30px;
+        object-fit: scale-down;
     }
     .popupclass h3 {
         font-size: 22px;
@@ -4043,10 +4055,7 @@ button:focus {
     .flex-grow-1 span {
         margin-left: 0px;
     }
-    .chatlist {
-        width: 100%;
-    }
-
+   
     .chatbox {
         width: 100%;
         position: absolute;
@@ -5542,3 +5551,24 @@ border-radius: 10px;
             z-index: 99999;
             width: -webkit-fill-available;
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
