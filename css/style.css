@@ -2412,7 +2412,7 @@ ul.social li a {
         padding: 0 20px;
     }
     .text-slid {
-        padding: 40px 10px 0px 0px !important;
+        padding: 40px 10px 0px 10px !important;
     }
     .steps-part {
         overflow: hidden;
@@ -2977,7 +2977,7 @@ div#profile p.short-mes {
     }
 
     ul#myTab button {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .offcanvas .online-a a {
@@ -3004,7 +3004,7 @@ div#profile p.short-mes {
     }
 
     ul#myTab button {
-        font-size: 13px;
+        font-size: 12px;
     }
 
 }
@@ -3262,7 +3262,7 @@ i.crown-p {
     }
 
     .cards p.name-uaser {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     p.font-15 {
@@ -3441,6 +3441,10 @@ i.crown-p {
     i.crown-p {
         bottom: 0;
         font-size: 26px;
+    }
+    .text-right.search-drop.withsamesize .department {
+        width: 110px !important;
+
     }
 
 
@@ -4642,7 +4646,7 @@ a.next-step-btn.rightbtn {
 
     .box-redi h3 {
         font-size: 22px;
-        line-height: 10px;
+        line-height:1.2;
         padding: 20px 20px;
 
     }
@@ -6346,12 +6350,12 @@ ul.your-rating li p {
         line-height: 60px;
     }
 
-    .btn-group.classbtn.mt-3.hov-zoom {
-        width: 100%;
-        float: right;
-        margin-bottom: 50px;
-        max-width: 250px;
-    }
+   .btn-group.classbtn.mt-3.hov-zoom {
+    width: 100%;
+    float: right;
+    margin-bottom: 50px;
+    max-width: 200px;
+}
 
     .btn-group.mt-3.hov-zoom {
         width: 100%;
@@ -6517,7 +6521,7 @@ i.fa-solid.fa-eye.eye-pri {
 
     p.close-top {
         position: absolute;
-        top: 40px;
+        top: 30px;
         width: 40px;
         height: 40px;
         background: #3dc9a1;
@@ -6544,9 +6548,9 @@ i.fa-solid.fa-eye.eye-pri {
         display: none;
     }
 
-    header.top-header {
+    /*header.top-header {
         padding: 30px 0px;
-    }
+    }*/
 
     img.off-logo {
         width: 40%;
@@ -6610,6 +6614,16 @@ i.fa-solid.fa-eye.eye-pri {
 
 }
 
+@media (max-width:1440px) {
+.col-lg-4.calasschane .law-box.prime .eye-pri { 
+    font-size: 12px;
+    height: 27px;
+    width: 27px; 
+}
+
+}
+
+
 @media (max-width:1100px) {
     #summary-law p.aed {
         line-height: 11px;
@@ -6650,11 +6664,14 @@ i.fa-solid.fa-eye.eye-pri {
     .m-mr-top {
         margin-top: -40px !important;
     }
-    img.off-logo {
-        width: 90% !important;
-        padding: 0px 25px;
-        padding-bottom: 30px;
-    }
+ img.off-logo {
+    width: 69% !important;
+    padding: 0;
+    padding-bottom: 14px;
+    position: relative;
+    margin-top: 9px;
+    right: 29px;
+}
 
     .department-width .department {
         margin: 0 0 10px 0;
@@ -6688,6 +6705,13 @@ i.fa-solid.fa-eye.eye-pri {
     .i-accept.i-ac label {
         font-size: 10px;
     }
+.form-control.class-height-smae {
+    height: 61px;
+}
+
+img.pro-1-1.mmmm.bg-class {
+    left: 0;
+}
 
 
 }
@@ -6750,6 +6774,7 @@ h1.aed-class.text-left-side {
 }
 .main-tabs ul#pills-tab {
     overflow-x: unset; 
+    align-items: center;
 }
 .main-tabs {
     position: absolute;
@@ -6762,6 +6787,26 @@ h1.aed-class.text-left-side {
 .main-tabs .nav-link{
     padding: 0px 4px;
 }
+
+a.img-dott span {
+    margin: 0px 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #191919;
+    
+}
+@media(max-width:991px){
+
+div#statec.tab-max-w {
+    max-width: 335px;
+    margin: 0 auto;
+}
+
+}
+
 @media(max-width:767px){
     .reviwesclass p {
         font-size: 6px;
@@ -6796,4 +6841,20 @@ h1.aed-class.text-left-side {
     .about-part.bg-F4FEFA{
         padding-bottom: 0px;
     }
+    .btn { 
+    font-size: 15px;
+    line-height: 35px; 
+        padding: 10px 0;
 }
+a.btn.btn-3cc7a0 { 
+    width: 40%;
+}
+.btn-group.mt-3.hov-zoom { 
+    width: 170px !important;
+}
+
+
+}
+
+
+
