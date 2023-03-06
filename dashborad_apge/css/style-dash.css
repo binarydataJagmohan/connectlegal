@@ -873,9 +873,15 @@ thead.thead-th th {
 h2.mth.chngemah {
     margin-top: 25px;
 }
-
-
-
+.circle-color { 
+    margin-top: 20px;
+}
+.grp {
+    position: relative;
+}
+.plus-icn-servie { 
+    margin-right: 0 !important;
+}
 
 
 
@@ -892,7 +898,9 @@ ul.note-why li {
 .plus-icn-servie h1 {
     font-size: 24px !important; 
 }
-
+ul.star-part-2 {
+    margin-right: 5px !important;
+} 
 
 
 
@@ -943,6 +951,13 @@ thead.thead-th th {
 .slider-fixed .nav-link {
     font-size: 16px;  
 }
+#service-pages h4 {
+    font-size: 26px !important; 
+}
+.d-flex1 li h1 {
+    font-size: 15px;
+    line-height: 29px;
+}
 
 
 }
@@ -960,6 +975,10 @@ div#chats-slots {
     margin: 0 auto;
     margin-top: 20px !important;
 }
+.mobile-space {
+    margin-top: 0rem!important;
+}
+
 
 }
 
@@ -989,6 +1008,31 @@ div#chats-slots {
 ul.note-why li {
     padding-left: 0 !important; 
 }
+.plus-icn-servie.plue-cahne.clone h1.addtst {
+    font-size: 14px !important;
+}
+.plus-icn-servie.clone  img {
+    padding: 0px 3px;
+    width: 22px;
+}
+.sp-top-select {
+    margin-top: 20px !important;
+}
+h2.mth { 
+    position: relative;
+    right: 10px;
+}
+#service-pages ul.d-flex1 li h4.gng.created-title {
+    font-size: 16px !important;
+}
+.department { 
+    font-size: 11px;
+}
+.plus-icn-servie { 
+    margin-right: 0 !important;
+}
+
+
 }
 
 @media(max-width:767px) {
@@ -1027,7 +1071,19 @@ div#testimonial-slider .owl-prev:after, .owl-next:after {
     top: -5px; 
     right: 5px;
 }
-
+.plus-icn-servie.plue-cahne.clone h1.addtst {
+    font-size: 12px !important;
+}
+#service-pages h4 {
+    font-size: 12px !important;
+    line-height: 22px !important;
+}
+.result strong {
+    font-size: 12px !important; 
+}
+#service-pages ul.d-flex1 li h4.gng.created-title {
+    font-size: 15px !important;
+}
 
 
 }
@@ -1049,7 +1105,13 @@ div#testimonial-slider .owl-prev:after, .owl-next:after {
 .testimonial li.nav-item   .nav-link {
     font-size: 12px !important; 
 }
-
+.plus-icn-servie.plue-cahne.clone h1.addtst {
+    font-size: 9px !important;
+    padding: 9px 4px;
+}
+#service-pages ul.d-flex1 li h4.gng.created-title {
+    font-size: 13px !important;
+}
 }
 
 

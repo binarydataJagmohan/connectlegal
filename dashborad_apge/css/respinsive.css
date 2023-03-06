@@ -784,9 +784,10 @@
         margin: 0 auto;
     }
 
-    .d-flex1 li h1 {
-        font-size: 20px;
-    }
+  .d-flex1 li h1 {
+    font-size: 15px;
+    line-height: 27px;
+}
 
     .color-bg {
         background: #f8f8f8;
