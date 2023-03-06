@@ -4546,6 +4546,9 @@ a.next-step-btn.rightbtn {
     ul.step-ul li a .fa-angles-right {
         top: 30px;
     }
+    .cards p.name-uaser{
+        font-size: 11px;
+    }
 
     ul.star-part-2 {
         display: flex;
