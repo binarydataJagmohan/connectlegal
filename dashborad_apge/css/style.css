@@ -5642,6 +5642,12 @@ div#submenu1::-webkit-scrollbar {
         font-size: 14px;
 
     }
+    .chn {
+        font-size: 12px;
+    }
+    div#group-div1 {
+        padding: 0px 50px;
+    }
 }
 
 @media(max-width:757px) {
