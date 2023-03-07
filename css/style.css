@@ -5963,6 +5963,7 @@ div#staticBackdrop.bg-4d4d4d {
 
 .head-fixed {
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 99999;
     width: -webkit-fill-available;
@@ -6469,7 +6470,7 @@ ul.your-rating li p {
 }
 
 .form-control.class-height-smae {
-    height: 90px;
+    height: 60px;
 }
 
 .form-control.class-height-smae::placeholder {
@@ -6871,6 +6872,39 @@ div#mySidenav{
     overflow: hidden;
     padding: 0px;
 }
-
-
+main.bg-color.bg-f4fefa {
+    padding: 40px 20px 0px 20px;
+}
+#coverpading{
+    padding: 50px 0px  0px 0px;
+}
+section#cover-padding {
+    padding: 0px 40px;
+}
+section.m-sp-same {
+    padding: 0px 40px 100px 40px;
+}
+section.practice-area.bg-grad-2.pb-0 {
+    padding: 10px 0px;
+}
+div#myTabContent::-webkit-scrollbar {
+    width: 1px !important;
+}
+div#myTabContent {
+    overflow-y: scroll;
+    height: 500x;
+    height: 500px;
+}
+@media(max-width:767px)
+{
+    section.m-sp-same {
+        padding: 0px 16px 100px 10px;
+    }
+    section#cover-padding {
+        padding: 0px 10px;
+    }
+    #twobtn a+a {
+         margin-left:0px;
+    }
+}
 

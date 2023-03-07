@@ -32,6 +32,7 @@ img.wrk {
     margin-left: 50px;
     margin-bottom: 20px;
     height: 650px;
+    object-fit: cover;
 }
 
 .img-work {
@@ -3125,11 +3126,15 @@ button.btn-rgstrr {
 .back-1 {
     background: #C2DDE4; 
     border-radius: 10px;
+    height: 100%;
+    position: relative;
 }
 
 .back-12 {
     background: #EDEEC6;
     border-radius: 10px; 
+    height: 100%;
+    position: relative;
 }
 
 h1.rgb {
@@ -3262,7 +3267,7 @@ h1.rgb {
     }
 
     img.rg-12 {
-        position: absolute;
+        position: unset;
         top: 0;
     }
 
@@ -5174,14 +5179,47 @@ button.btn.btn-secondary.bg-btn-1 {
     position: relative;
 }
 
+/* new css */
+
+button.btn-rgstrr {
+    position: unset;
+    bottom: 0;
+}
+div#accodian-class {
+    padding: 20px 80px 20px 30px;
+}
 
 @media(max-width:767px) {
 .form-horizontal-class { 
     padding: 20px; 
 }
-
-
+div#accodian-class {
+    padding: 20px 10px 20px 0px;
 }
+img.rg-1 {
+     position: unset;
+}
+.icn-png {
+    padding-top: 0px;
+}
+.Generatebtn {
+    font-size: 15px !important;
+    padding: 15px 10px;
+}
+#id-center p {
+    padding-top: 18px;
+    font-size: 20px;
+}
+#id-center {
+    background: #E8F8F2;
+    border-radius: 15px;
+    padding: 30px 0px;
+}
+img.off-logo {
+    right: -20px;
+}
+}
+
 
 
 
