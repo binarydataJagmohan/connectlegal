@@ -6868,9 +6868,10 @@ a.btn.btn-3cc7a0 {
 }
 
 /* 07-03-2023 */
-div#mySidenav{
+div#mySidenav {
     overflow: hidden;
     padding: 0px;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.15);
 }
 main.bg-color.bg-f4fefa {
     padding: 40px 20px 0px 20px;
