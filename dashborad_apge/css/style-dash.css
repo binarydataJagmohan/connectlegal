@@ -848,8 +848,15 @@ a.list-group-item.mmmm {
 
 
 /*Start...........6-3-2023*/
+thead#widthcover th {
+    color: #156075;
+    padding-left: 20px;
+}
+tbody.table-group-divider tr td {
+    padding-left: 20px;
+}
 .table-group-divider tr td {  
-    text-align: center; 
+    text-align: left; 
 }
 thead.thead-th th { 
     text-align: center !important; 
@@ -880,7 +887,7 @@ h2.mth.chngemah {
     position: relative;
 }
 .plus-icn-servie { 
-    margin-right: 8px !important;
+    margin-right: 8px;
 }
 
 
@@ -889,6 +896,10 @@ h2.mth.chngemah {
 .table-group-divider tr td { 
     font-size: 18px;  
 }
+
+div#pt-class {
+    padding-top: 116px;
+}
 ul.note-why li { 
     font-size: 14px !important; 
 } 
@@ -896,7 +907,7 @@ ul.note-why li {
     font-size: 20px !important;
 }
 .plus-icn-servie h1 {
-    font-size: 24px !important; 
+    font-size: 24px  
 }
 ul.star-part-2 {
     margin-right: 5px !important;
@@ -909,6 +920,10 @@ ul.star-part-2 {
 @media(max-width:1400px) {
 .table-group-divider tr td {
     font-size: 14px;
+}
+
+div#pt-class {
+    padding-top: 116px;
 }
 .table-group-divider th {
     font-size: 14px !important;  
@@ -939,7 +954,7 @@ thead.thead-th th {
     font-size: 22px; 
 }
 .plus-icn-servie h1 {
-    font-size: 17px !important; 
+    font-size: 17px; 
 }
 .plus-icn-servie img { 
     margin-right: 6px;
@@ -1028,9 +1043,7 @@ h2.mth {
 .department { 
     font-size: 11px;
 }
-.plus-icn-servie { 
-    margin-right: 0 !important;
-}
+
 
 
 }
@@ -1042,7 +1055,7 @@ h2.mth {
     font-size: 11px;
 }
 .plus-icn-servie { 
-    padding: 0 9px !important; 
+    padding: 0 9px; 
 }
 .chat-slots-left div { 
     font-size: 13px;

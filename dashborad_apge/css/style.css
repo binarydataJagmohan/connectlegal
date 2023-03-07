@@ -3371,7 +3371,7 @@ div#border-full {
 }
 
 div#pagination-class {
-    padding: 20px 50px 40px;
+    padding: 20px 14px 40px;
 }
 
 
@@ -4957,7 +4957,7 @@ div#border-class {
         font-size: 13px;
     }
     div#pagination-class {
-        padding: 20px 20px 39px;
+        padding: 20px 20px 60px;
     }
     ul.d-flex1.clor-h h4 {
         padding: 16px;
@@ -5590,6 +5590,9 @@ border-radius: 10px;
                 font-size: 14px;
         
             }
+            #Airtical .plus-icn-servie {
+                margin: 10px;
+            }
         
         }
         
@@ -5601,6 +5604,9 @@ border-radius: 10px;
             #title input::placeholder {
                 font-size: 14px;
         
+            }
+            #Airtical .plus-icn-servie {
+                margin: 10px;
             }
         }
 
