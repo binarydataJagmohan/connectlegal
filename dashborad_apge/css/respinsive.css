@@ -784,10 +784,9 @@
         margin: 0 auto;
     }
 
-  .d-flex1 li h1 {
-    font-size: 15px;
-    line-height: 27px;
-}
+    .d-flex1 li h1 {
+        font-size: 20px;
+    }
 
     .color-bg {
         background: #f8f8f8;
@@ -1313,7 +1312,7 @@
 
     .table-responsive table.table {
         width: 320px;
-/*        display: block;*/
+        display: block;
         overflow-x: auto;
         white-space: nowrap;
     }
@@ -2078,28 +2077,6 @@ div#view-1024-100 {
     width: 100%;
     margin-bottom: 17px;
 }
-.working-box {
-    padding: 20px;
-}
-a.dot4 { 
-    padding: 10px 15px; 
-    margin: 0px 5px;
-}
-.drop .dropdown-toggle { 
-    margin-right: 8px !important;
-}
-a.dot4.same-1024 {
-    padding: 5px 8px !important;
-    margin: 0px 5px;
-    font-size: 10px;
-}
-div#chats-slots {
-    padding: 0px 10px;
-}
-div#chats-slots .time-class.time-1 {
-    width: 45%;
-}
-
 
 
 }
@@ -2183,14 +2160,6 @@ input.form-control {
 }
 .d-flex1 span, li  p {
     font-size: 10px !important;
-}
-a.dot4.same-1024 {
-    padding: 4px 6px !important;
-    margin: 0px 2px;
-    font-size: 9px;
-}
-.drop .dropdown-toggle {
-    margin-right: 2px !important;
 }
 
 

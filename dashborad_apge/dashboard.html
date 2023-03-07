@@ -33,7 +33,8 @@
 <body>
 
   <div class="flex-part">
-    <div class="left-menu-bar">
+  <div class="left-menu-bar">
+    <div class="width">
       <div id="sidebar-container" class="sidebar-expanded d-none d-md-block">
         <ul class="list-group">
           <a href="#" data-toggle="sidebar-colapse"
@@ -75,6 +76,7 @@
         </ul>
       </div>
     </div>
+  </div>
     <div class="dash-body">
       <div class="top-header">
         <div class="row">
@@ -137,7 +139,36 @@
 
                 </div>
                 <div class="col-sm-1 pl-0 text-right">
-                  <a href="#"><i class="fa-solid fa-ellipsis-vertical vertical-ic"></i></a>
+                  <ul class="moreoption">
+                    <li class="navbar nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#"
+                            role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"><i class="fa-solid fa-ellipsis-vertical text-white"></i></a>
+                        <ul class="dropdown-menu img-width">
+                            <li><a class="dropdown-item" href="#"> <img
+                                        src="images/icons-/1.png" alt="">
+                                        My Profile</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"> <img
+                                        src="images/icons-/2.png" alt="">
+                                        Dashboard</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"> <img
+                                        src="images/icons-/3.png" alt="">
+                                        Write Testimonials</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"> <img
+                                        src="images/icons-/4.png" alt="">
+                                        Blogs and Articles</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"> <img
+                                        src="images/icons-/5.png" alt="">
+                                        Log Out</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
                 </div>
               </div>
             </div>
@@ -191,7 +222,6 @@
           </div>
         </div>
       </div>
-
       <div class="working-box">
         <div class="row g-4">
           <div class="col-lg-3 col-md-6 col-6">
@@ -675,6 +705,17 @@
     });
   </script>
 
+<script>
+  $(document).ready(function() {
+    $(window).scroll(function() {
+      if ($(document).scrollTop() > 70) {
+        $(".top-header").addClass("head-fixed");
+      } else {
+        $(".top-header").removeClass("head-fixed");
+      }
+    });
+  });
+  </script>
 
 
 

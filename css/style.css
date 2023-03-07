@@ -6864,8 +6864,12 @@ a.btn.btn-3cc7a0 {
 .btn-group.mt-3.hov-zoom { 
     width: 170px !important;
 }
+}
 
-
+/* 07-03-2023 */
+div#mySidenav{
+    overflow: hidden;
+    padding: 0px;
 }
 
 

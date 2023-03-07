@@ -1,4 +1,4 @@
-body {
+body,html {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     color: #191919;
@@ -2568,11 +2568,12 @@ p {
     color: #191919;
 }
 
-.form-control.title-class {
+/* .form-control.title-class {
     border: 0.75px solid #85BACA;
     border-radius: 15px;
     height: 53px;
-}
+    font-size: 10px !important;
+} */
 
 #title input::placeholder {
     font-size: 20px;
@@ -3228,14 +3229,14 @@ ul.note-why li {
 }
 
 .plus-icn-servie h1 {
-    font-size: 19px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
     color: #156075;
     margin: 0px;
-    padding: 5px 9px;
+
 }
 
 .plus-icn-servie img {
@@ -5552,7 +5553,32 @@ border-radius: 10px;
             width: -webkit-fill-available;
         }
 
+@media(max-width:991px){
+    .fadepopup .modal-dialog {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+    .publish_post {
+        width: 170px;
+        padding: 10px;
+        font-size: 16px;
+    }
+    #title input::placeholder {
+        font-size: 14px;
+    
+    }
+}
 
+@media(max-width:757px){
+    .fadepopup .modal-dialog {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    #title input::placeholder {
+        font-size: 14px;
+    
+    }
+}
 
 
 
