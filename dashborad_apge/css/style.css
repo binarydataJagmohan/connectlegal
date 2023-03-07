@@ -1,5 +1,4 @@
-body,
-html {
+body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     color: #191919;
@@ -8,16 +7,9 @@ html {
 img {
     max-width: 100%;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-    padding: 0;
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
 }
 
 .top-header {
@@ -2576,12 +2568,11 @@ p {
     color: #191919;
 }
 
-/* .form-control.title-class {
+.form-control.title-class {
     border: 0.75px solid #85BACA;
     border-radius: 15px;
     height: 53px;
-    font-size: 10px !important;
-} */
+}
 
 #title input::placeholder {
     font-size: 20px;
@@ -2813,7 +2804,6 @@ p {
     padding: 0px 12px 25px 12px;
     overflow: auto;
 }
-
 div#chats-slots img {
     height: 30px;
     width: 30px;
@@ -3121,7 +3111,6 @@ div#class-smae-color:hover {
     border: 0.75px solid #85BACA;
     border-radius: 15px;
 }
-
 .d-flex.time-class.w-small {
     max-width: 100px;
     width: 100%;
@@ -3239,14 +3228,14 @@ ul.note-why li {
 }
 
 .plus-icn-servie h1 {
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
     color: #156075;
     margin: 0px;
-
+    padding: 5px 9px;
 }
 
 .plus-icn-servie img {
@@ -3657,7 +3646,6 @@ a.add img {
 .dropdown-menu li {
     display: inline;
 }
-
 a.dropdown-item img {
     width: 20px;
 }
@@ -3679,7 +3667,6 @@ a.dropdown-item img {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-
 .moreoption .dropdown-menu:before {
     content: "";
     position: absolute;
@@ -4045,34 +4032,30 @@ button:focus {
 }
 } */
 
-@media(max-width:768px) {
+@media(max-width:768px){
     .chatlist {
         width: 100%;
     }
 
 }
-
 @media (max-width: 767px) {
     .chat-icon {
         display: block;
         margin-right: 25px;
     }
-
     .flex-shrink-0.img-width img {
         width: 34px;
         height: 34px;
         border-radius: 30px;
         object-fit: scale-down;
     }
-
     .popupclass h3 {
         font-size: 22px;
     }
-
     .flex-grow-1 span {
         margin-left: 0px;
     }
-
+   
     .chatbox {
         width: 100%;
         position: absolute;
@@ -4799,7 +4782,6 @@ h4.book-text {
     color: #7B7A7A;
 
 }
-
 h4.book-text.font-samll {
     font-size: 32px;
     font-weight: 700;
@@ -4807,8 +4789,7 @@ h4.book-text.font-samll {
     letter-spacing: 0em;
     text-align: left;
 }
-
-@media(min-width:1366px) {
+@media(min-width:1366px){
     .chat-slots-left div {
         font-size: 14px;
     }
@@ -4818,71 +4799,57 @@ h4.book-text.font-samll {
     .same-flex li {
         font-size: 16px;
     }
-
     .images img {
         width: 25px;
     }
-
     #Airtical .plus-icn-servie {
         margin: 10px;
     }
-
     td.images-dalate img {
         width: 25px;
     }
-
     thead.thead-th th {
         font-size: 16px;
     }
-
     thead.thead-th th {
         width: 30px;
     }
-
     div#booked-white p {
         font-size: 20px;
         line-height: 36px;
     }
-
     .booked.bg-EDEEC6.height-same {
         height: auto;
         background: #3DC9A1;
         margin-top: 24px;
         padding: 55px 0px 10px 40px;
     }
-
     p.date-r {
         font-size: 12px;
         line-height: 18px;
     }
-
     p.time-r {
         font-size: 12px;
     }
-
     .d-flex2 img {
         height: 20px;
     }
+.padding-cover h5 {
+    font-size: 16px;
+    line-height: 30px;
 
-    .padding-cover h5 {
-        font-size: 16px;
-        line-height: 30px;
-
-    }
-
-    div#border-class {
-        padding: 0px;
-    }
-
+}
+div#border-class {
+    padding: 0px;
+}
     .padding-cover span {
         font-size: 10px;
         line-height: 21px;
     }
-
     .padding-cover p {
         font-size: 10px;
         line-height: 21px;
-
+    
     }
 
     .color-1 {
@@ -4897,11 +4864,9 @@ h4.book-text.font-samll {
         font-size: 10px;
         line-height: 15px;
     }
-
-    #booked-new .booked h6 {
-        padding-top: 25px;
-    }
-
+#booked-new .booked h6 {
+    padding-top: 25px;
+}
     .booked h6 {
         font-size: 16px;
         line-height: 22px;
@@ -4982,8 +4947,8 @@ h4.book-text.font-samll {
 
 @media(max-width:1024px) {
     a.dot4 {
-        padding: 0px 4px !important;
-        margin: 0px 4px;
+        padding: 0px 2px !important;
+        margin: 0px 0px;
     }
 }
 
@@ -4991,11 +4956,9 @@ h4.book-text.font-samll {
     .plus-icn-servie h1 {
         font-size: 13px;
     }
-
     div#pagination-class {
         padding: 20px 20px 39px;
     }
-
     ul.d-flex1.clor-h h4 {
         padding: 16px;
     }
@@ -5009,14 +4972,12 @@ h4.book-text.font-samll {
     .community-text1 {
         padding: 10px;
     }
-
     .nav-tabs .nav-link {
         font-size: 10px;
     }
-
     .owl-theme .owl-controls .owl-buttons div {
-        width: unset;
-        height: unset;
+         width: unset;
+         height: unset; 
     }
 
     .working-box {
@@ -5161,7 +5122,6 @@ h4.book-text.font-samll {
         right: -10%;
         top: 1%;
     }
-
     .commn_section .font-64 .span-color-dark {
         font-size: 20px;
         line-height: 30px;
@@ -5180,7 +5140,6 @@ h4.book-text.font-samll {
         display: none !important;
     }
 }
-
 /* all popop deshboad */
 .popupclass {
     background: #E0EDF1;
@@ -5188,476 +5147,476 @@ h4.book-text.font-samll {
     border-radius: 15px;
     padding: 30px;
 }
-
 .chat-popup .modal-body {
     position: relative;
     flex: 1 1 auto;
     padding: 0px;
 }
-
-.popupclass h3 {
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 54px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #191919;
+.popupclass h3{
+font-size: 36px;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+color:#191919;
 }
-
-.popupclass span {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #191919;
+.popupclass span{
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #191919;
 }
-
-.popupclass p {
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #191919;
+.popupclass p{
+font-size: 15px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color: #191919;
 
 }
-
-.popupclass strong {
+.popupclass strong{
     font-size: 15px;
     font-weight: 400;
     line-height: 23px;
     letter-spacing: 0em;
     text-align: left;
     color: #156075;
-}
-
-li {
-    list-style: none;
-}
-
-.chatbtnpopup {
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 23px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #191919;
-    width: 150px;
-    height: 46px;
-    background: #FFFFFF;
-    border: 1px solid #156075;
-    border-radius: 10px;
-}
+    }
+    li{
+        list-style: none;
+    }
+    .chatbtnpopup{
+font-size: 15px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+color: #191919;
+width: 150px;
+height: 46px;
+background: #FFFFFF;
+border: 1px solid #156075;
+border-radius: 10px;
+    }
 
 
 
 
 
 
-/* emoji css style */
+    /* emoji css style */
 
-.test-emoji {
-    position: absolute;
-    text-align: center;
-    font-size: 2rem;
-    left: 0%;
-    width: 100%;
-    top: 20%;
-}
-
-.intercom-composer-popover-input {
-    font-size-adjust: none;
-    font-size: 100%;
-    font-style: normal;
-    letter-spacing: normal;
-    font-stretch: normal;
-    font-variant: normal;
-    font-weight: 400;
-    font: normal normal 100% "intercom-font", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: left;
-    text-align-last: auto;
-    text-decoration: none;
-    -webkit-text-emphasis: none;
-    text-emphasis: none;
-    text-height: auto;
-    text-indent: 0;
-    text-justify: auto;
-    text-outline: none;
-    text-shadow: none;
-    text-transform: none;
-    text-wrap: normal;
-    alignment-adjust: auto;
-    alignment-baseline: baseline;
-    -webkit-animation: none 0 ease 0 1 normal;
-    animation: none 0 ease 0 1 normal;
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-    -webkit-appearance: normal;
-    -moz-appearance: normal;
-    appearance: normal;
-    azimuth: center;
-    -webkit-backface-visibility: visible;
-    backface-visibility: visible;
-    background: none 0 0 auto repeat scroll padding-box transparent;
-    background-color: transparent;
-    background-image: none;
-    baseline-shift: baseline;
-    binding: none;
-    bleed: 6pt;
-    bookmark-label: content();
-    bookmark-level: none;
-    bookmark-state: open;
-    bookmark-target: none;
-    border: 0 none transparent;
-    border-radius: 0;
-    bottom: auto;
-    box-align: stretch;
-    -webkit-box-decoration-break: slice;
-    box-decoration-break: slice;
-    box-direction: normal;
-    box-flex: 0.0;
-    box-flex-group: 1;
-    box-lines: single;
-    box-ordinal-group: 1;
-    box-orient: inline-axis;
-    box-pack: start;
-    box-shadow: none;
-    box-sizing: content-box;
-    -webkit-column-break-after: auto;
-    break-after: auto;
-    -webkit-column-break-before: auto;
-    break-before: auto;
-    -webkit-column-break-inside: auto;
-    break-inside: auto;
-    caption-side: top;
-    clear: none;
-    clip: auto;
-    color: inherit;
-    color-profile: auto;
-    -webkit-column-count: auto;
-    -moz-column-count: auto;
-    column-count: auto;
-    -webkit-column-fill: balance;
-    -moz-column-fill: balance;
-    column-fill: balance;
-    -webkit-column-gap: normal;
-    -moz-column-gap: normal;
-    column-gap: normal;
-    -webkit-column-rule: medium medium #1f1f1f;
-    -moz-column-rule: medium medium #1f1f1f;
-    column-rule: medium medium #1f1f1f;
-    -webkit-column-span: 1;
-    -moz-column-span: 1;
-    column-span: 1;
-    -webkit-column-width: auto;
-    -moz-column-width: auto;
-    column-width: auto;
-    -webkit-columns: auto auto;
-    -moz-columns: auto auto;
-    columns: auto auto;
-    content: normal;
-    counter-increment: none;
-    counter-reset: none;
-    crop: auto;
-    cursor: auto;
-    direction: ltr;
-    display: inline;
-    dominant-baseline: auto;
-    drop-initial-after-adjust: text-after-edge;
-    drop-initial-after-align: baseline;
-    drop-initial-before-adjust: text-before-edge;
-    drop-initial-before-align: caps-height;
-    drop-initial-size: auto;
-    drop-initial-value: initial;
-    elevation: level;
-    empty-cells: show;
-    fit: fill;
-    fit-position: 0 0;
-    float: none;
-    float-offset: 0 0;
-    grid-columns: none;
-    grid-rows: none;
-    hanging-punctuation: none;
-    height: auto;
-    hyphenate-after: auto;
-    hyphenate-before: auto;
-    hyphenate-character: auto;
-    hyphenate-lines: no-limit;
-    hyphenate-resource: none;
-    -webkit-hyphens: manual;
-    -ms-hyphens: manual;
-    hyphens: manual;
-    icon: auto;
-    image-orientation: auto;
-    image-rendering: auto;
-    image-resolution: normal;
-    inline-box-align: last;
-    left: auto;
-    line-height: inherit;
-    line-stacking: inline-line-height exclude-ruby consider-shifts;
-    list-style: disc outside none;
-    margin: 0;
-    marks: none;
-    marquee-direction: forward;
-    marquee-loop: 1;
-    marquee-play-count: 1;
-    marquee-speed: normal;
-    marquee-style: scroll;
-    max-height: none;
-    max-width: none;
-    min-height: 0;
-    min-width: 0;
-    move-to: normal;
-    nav-down: auto;
-    nav-index: auto;
-    nav-left: auto;
-    nav-right: auto;
-    nav-up: auto;
-    opacity: 1;
-    orphans: 2;
-    outline: medium none invert;
-    outline-offset: 0;
-    overflow: visible;
-    overflow-style: auto;
-    padding: 0;
-    page: auto;
-    page-break-after: auto;
-    page-break-before: auto;
-    page-break-inside: auto;
-    page-policy: start;
-    -webkit-perspective: none;
-    perspective: none;
-    -webkit-perspective-origin: 50% 50%;
-    perspective-origin: 50% 50%;
-    pointer-events: auto;
-    position: static;
-    presentation-level: 0;
-    punctuation-trim: none;
-    quotes: none;
-    rendering-intent: auto;
-    resize: none;
-    right: auto;
-    rotation: 0;
-    rotation-point: 50% 50%;
-    ruby-align: auto;
-    ruby-overhang: none;
-    ruby-position: before;
-    ruby-span: none;
-    size: auto;
-    string-set: none;
-    table-layout: auto;
-    top: auto;
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-    -webkit-transform-origin: 50% 50% 0;
-    -ms-transform-origin: 50% 50% 0;
-    transform-origin: 50% 50% 0;
-    -webkit-transform-style: flat;
-    transform-style: flat;
-    transition: all 0 ease 0;
-    unicode-bidi: normal;
-    vertical-align: baseline;
-    white-space: normal;
-    white-space-collapse: collapse;
-    widows: 2;
-    width: auto;
-    word-break: normal;
-    word-spacing: normal;
-    word-wrap: normal;
-    z-index: auto;
-    text-align: start;
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-
-}
-
-/* .intercom-composer-popover.intercom-composer-emoji-popover.active{
+    .test-emoji{
+        position: absolute;
+        text-align:center;
+        font-size: 2rem;
+        left: 0%;
+        width: 100%;
+        top: 20%;
+        }
+        
+        .intercom-composer-popover-input{
+          font-size-adjust: none;
+          font-size: 100%;
+          font-style: normal;
+          letter-spacing: normal;
+          font-stretch: normal;
+          font-variant: normal;
+          font-weight: 400;
+          font: normal normal 100% "intercom-font", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          text-align: left;
+          text-align-last: auto;
+          text-decoration: none;
+          -webkit-text-emphasis: none;
+          text-emphasis: none;
+          text-height: auto;
+          text-indent: 0;
+          text-justify: auto;
+          text-outline: none;
+          text-shadow: none;
+          text-transform: none;
+          text-wrap: normal;
+          alignment-adjust: auto;
+          alignment-baseline: baseline;
+          -webkit-animation: none 0 ease 0 1 normal;
+          animation: none 0 ease 0 1 normal;
+          -webkit-animation-play-state: running;
+          animation-play-state: running;
+          -webkit-appearance: normal;
+          -moz-appearance: normal;
+          appearance: normal;
+          azimuth: center;
+          -webkit-backface-visibility: visible;
+          backface-visibility: visible;
+          background: none 0 0 auto repeat scroll padding-box transparent;
+          background-color: transparent;
+          background-image: none;
+          baseline-shift: baseline;
+          binding: none;
+          bleed: 6pt;
+          bookmark-label: content();
+          bookmark-level: none;
+          bookmark-state: open;
+          bookmark-target: none;
+          border: 0 none transparent;
+          border-radius: 0;
+          bottom: auto;
+          box-align: stretch;
+          -webkit-box-decoration-break: slice;
+          box-decoration-break: slice;
+          box-direction: normal;
+          box-flex: 0.0;
+          box-flex-group: 1;
+          box-lines: single;
+          box-ordinal-group: 1;
+          box-orient: inline-axis;
+          box-pack: start;
+          box-shadow: none;
+          box-sizing: content-box;
+          -webkit-column-break-after: auto;
+          break-after: auto;
+          -webkit-column-break-before: auto;
+          break-before: auto;
+          -webkit-column-break-inside: auto;
+          break-inside: auto;
+          caption-side: top;
+          clear: none;
+          clip: auto;
+          color: inherit;
+          color-profile: auto;
+          -webkit-column-count: auto;
+          -moz-column-count: auto;
+          column-count: auto;
+          -webkit-column-fill: balance;
+          -moz-column-fill: balance;
+          column-fill: balance;
+          -webkit-column-gap: normal;
+          -moz-column-gap: normal;
+          column-gap: normal;
+          -webkit-column-rule: medium medium #1f1f1f;
+          -moz-column-rule: medium medium #1f1f1f;
+          column-rule: medium medium #1f1f1f;
+          -webkit-column-span: 1;
+          -moz-column-span: 1;
+          column-span: 1;
+          -webkit-column-width: auto;
+          -moz-column-width: auto;
+          column-width: auto;
+          -webkit-columns: auto auto;
+          -moz-columns: auto auto;
+          columns: auto auto;
+          content: normal;
+          counter-increment: none;
+          counter-reset: none;
+          crop: auto;
+          cursor: auto;
+          direction: ltr;
+          display: inline;
+          dominant-baseline: auto;
+          drop-initial-after-adjust: text-after-edge;
+          drop-initial-after-align: baseline;
+          drop-initial-before-adjust: text-before-edge;
+          drop-initial-before-align: caps-height;
+          drop-initial-size: auto;
+          drop-initial-value: initial;
+          elevation: level;
+          empty-cells: show;
+          fit: fill;
+          fit-position: 0 0;
+          float: none;
+          float-offset: 0 0;
+          grid-columns: none;
+          grid-rows: none;
+          hanging-punctuation: none;
+          height: auto;
+          hyphenate-after: auto;
+          hyphenate-before: auto;
+          hyphenate-character: auto;
+          hyphenate-lines: no-limit;
+          hyphenate-resource: none;
+          -webkit-hyphens: manual;
+          -ms-hyphens: manual;
+          hyphens: manual;
+          icon: auto;
+          image-orientation: auto;
+          image-rendering: auto;
+          image-resolution: normal;
+          inline-box-align: last;
+          left: auto;
+          line-height: inherit;
+          line-stacking: inline-line-height exclude-ruby consider-shifts;
+          list-style: disc outside none;
+          margin: 0;
+          marks: none;
+          marquee-direction: forward;
+          marquee-loop: 1;
+          marquee-play-count: 1;
+          marquee-speed: normal;
+          marquee-style: scroll;
+          max-height: none;
+          max-width: none;
+          min-height: 0;
+          min-width: 0;
+          move-to: normal;
+          nav-down: auto;
+          nav-index: auto;
+          nav-left: auto;
+          nav-right: auto;
+          nav-up: auto;
+          opacity: 1;
+          orphans: 2;
+          outline: medium none invert;
+          outline-offset: 0;
+          overflow: visible;
+          overflow-style: auto;
+          padding: 0;
+          page: auto;
+          page-break-after: auto;
+          page-break-before: auto;
+          page-break-inside: auto;
+          page-policy: start;
+          -webkit-perspective: none;
+          perspective: none;
+          -webkit-perspective-origin: 50% 50%;
+          perspective-origin: 50% 50%;
+          pointer-events: auto;
+          position: static;
+          presentation-level: 0;
+          punctuation-trim: none;
+          quotes: none;
+          rendering-intent: auto;
+          resize: none;
+          right: auto;
+          rotation: 0;
+          rotation-point: 50% 50%;
+          ruby-align: auto;
+          ruby-overhang: none;
+          ruby-position: before;
+          ruby-span: none;
+          size: auto;
+          string-set: none;
+          table-layout: auto;
+          top: auto;
+          -webkit-transform: none;
+          -ms-transform: none;
+          transform: none;
+          -webkit-transform-origin: 50% 50% 0;
+          -ms-transform-origin: 50% 50% 0;
+          transform-origin: 50% 50% 0;
+          -webkit-transform-style: flat;
+          transform-style: flat;
+          transition: all 0 ease 0;
+          unicode-bidi: normal;
+          vertical-align: baseline;
+          white-space: normal;
+          white-space-collapse: collapse;
+          widows: 2;
+          width: auto;
+          word-break: normal;
+          word-spacing: normal;
+          word-wrap: normal;
+          z-index: auto;
+          text-align: start;
+          -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        
+        }
+              /* .intercom-composer-popover.intercom-composer-emoji-popover.active{
                   width: 43%;
           bottom: 25%;
               } */
-.intercom-composer-popover {
-    bottom: 84px !important;
-    width: 97%;
-    z-index: 2147483003;
-    position: absolute;
-    bottom: 50px;
-    /* right: calc(50% - 165px); */
-    box-shadow: 0 1px 15px 1px rgba(0, 0, 0, .08);
-    background-color: #fff;
-    border-radius: 6px;
-    transition-duration: 200ms;
-    transition-delay: 0ms;
-    transform-style: flat;
-    transform-origin: 50% 50% 0;
-    opacity: 0;
-    transition: all 0.2s linear;
-    visibility: hidden;
-}
-
-.intercom-composer-popover.active {
-    visibility: visible;
-    opacity: 1;
-    bottom: 70px;
-}
-
-.intercom-emoji-picker {
-    width: 330px;
-    height: 260px;
-}
-
-.intercom-composer-popover-header {
-    position: absolute;
-    top: 0;
-    left: 20px;
-    right: 20px;
-    height: 40px;
-    border-bottom: 1px solid #edeff1;
-}
-
-.intercom-composer-popover-input {
-    background-image: url(https://js.intercomcdn.com/images/search.7ae40c25.png);
-    background-size: 16px 16px;
-    background-repeat: no-repeat;
-    background-position: 0 12px;
-    font-weight: 400;
-    font-size: 14px;
-    color: #6e7a89;
-    padding-left: 25px;
-    height: 40px;
-    width: 100%;
-    box-sizing: border-box;
-    background-image: url(https://js.intercomcdn.com/images/search@2x.9f02b9f3.png);
-    border: none;
-    outline: none;
-}
-
-.intercom-composer-popover-body {
-    position: absolute;
-    top: 40px;
-    left: 0;
-    right: 0;
-    bottom: 5px;
-    padding: 0 20px;
-    overflow-y: scroll;
-}
-
-.intercom-emoji-picker-group {
-    margin: 10px -5px;
-}
-
-.intercom-emoji-picker-group {
-    margin: 10px -5px;
-}
-
-.intercom-emoji-picker-group-title {
-    color: #b8c3ca;
-    font-weight: 400;
-    font-size: 13px;
-    margin: 5px;
-}
-
-.intercom-emoji-picker-emoji {
-    padding: 5px;
-    width: 30px;
-    line-height: 30px;
-    display: inline-table;
-    text-align: center;
-    cursor: pointer;
-    vertical-align: middle;
-    font-size: 28px;
-    transition: -webkit-transform 60ms ease-out;
-    transition: transform 60ms ease-out;
-    transition: transform 60ms ease-out, -webkit-transform 60ms ease-out;
-    transition-delay: 60ms;
-    font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}
-
-.intercom-emoji-picker-emoji:hover {
-    transition-delay: 0ms;
-    -webkit-transform: scale(1.4);
-    -ms-transform: scale(1.4);
-    transform: scale(1.4);
-}
-
-.intercom-composer-popover-caret {
-    position: absolute;
-    bottom: -8px;
-    right: 0;
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-top: 8px solid #fff;
-    left: 20px;
-}
-
-.chat-input-tool {
-    background-color: #32A8E6;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    outline: none;
-}
-
-
-.head-fixed {
-    position: fixed;
-    z-index: 99999;
-    width: -webkit-fill-available;
-}
-
-ul.list-group {
-    position: fixed;
-    max-width: 300px;
-}
-
-div#submenu1 {
-    overflow-y: scroll;
-    height: 500px;
-}
-
-div#submenu1::-webkit-scrollbar {
-    width: 1em;
-}
-
-@media(max-width:991px) {
-    .fadepopup .modal-dialog {
-        max-width: 550px;
-        margin: 0 auto;
-    }
-
-    .publish_post {
-        width: 170px;
+        .intercom-composer-popover {
+          bottom: 84px !important;
+          width: 97%;
+          z-index: 2147483003;
+          position: absolute;
+          bottom: 50px;
+          /* right: calc(50% - 165px); */
+          box-shadow: 0 1px 15px 1px rgba(0,0,0,.08);
+          background-color: #fff;
+          border-radius: 6px;
+          transition-duration: 200ms;
+          transition-delay: 0ms;
+          transform-style: flat;
+          transform-origin: 50% 50% 0;
+          opacity: 0;
+          transition: all 0.2s linear;
+          visibility: hidden;
+        }
+        .intercom-composer-popover.active{
+        visibility: visible;
+        opacity:1;
+        bottom: 70px;
+        }
+        .intercom-emoji-picker {
+          width: 330px;
+          height: 260px;
+        }
+        .intercom-composer-popover-header {
+          position: absolute;
+          top: 0;
+          left: 20px;
+          right: 20px;
+          height: 40px;
+          border-bottom: 1px solid #edeff1;
+        }
+        .intercom-composer-popover-input {
+          background-image: url(https://js.intercomcdn.com/images/search.7ae40c25.png);
+          background-size: 16px 16px;
+          background-repeat: no-repeat;
+          background-position: 0 12px;
+          font-weight: 400;
+          font-size: 14px;
+          color: #6e7a89;
+          padding-left: 25px;
+          height: 40px;
+          width: 100%;
+          box-sizing: border-box;
+          background-image: url(https://js.intercomcdn.com/images/search@2x.9f02b9f3.png);
+          border:none;
+          outline: none;
+        }
+        .intercom-composer-popover-body {
+          position: absolute;
+          top: 40px;
+          left: 0;
+          right: 0;
+          bottom: 5px;
+          padding: 0 20px;
+          overflow-y: scroll;
+        }
+        .intercom-emoji-picker-group {
+          margin: 10px -5px;
+        }
+        .intercom-emoji-picker-group {
+          margin: 10px -5px;
+        }
+        .intercom-emoji-picker-group-title {
+          color: #b8c3ca;
+          font-weight: 400;
+          font-size: 13px;
+          margin: 5px;
+        }
+        .intercom-emoji-picker-emoji {
+          padding: 5px;
+          width: 30px;
+          line-height: 30px;
+          display: inline-table;
+          text-align: center;
+          cursor: pointer;
+          vertical-align: middle;
+          font-size: 28px;
+          transition: -webkit-transform 60ms ease-out;
+          transition: transform 60ms ease-out;
+          transition: transform 60ms ease-out,-webkit-transform 60ms ease-out;
+          transition-delay: 60ms;
+          font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
+        }
+        .intercom-emoji-picker-emoji:hover {
+          transition-delay: 0ms;
+          -webkit-transform: scale(1.4);
+          -ms-transform: scale(1.4);
+          transform: scale(1.4);
+        }
+        .intercom-composer-popover-caret {
+          position: absolute;
+          bottom: -8px;
+          right: 0;
+          width: 0;
+          height: 0;
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent;
+          border-top: 8px solid #fff;
+          left:20px;
+        }
+        
+        .chat-input-tool{
+        background-color: #32A8E6;
         padding: 10px;
-        font-size: 16px;
-    }
+        border:none;  
+        border-radius: 5px;
+        position: absolute;
+        bottom:20px;
+        left: 50%;
+        outline:none;
+        }
+        
 
-    #title input::placeholder {
-        font-size: 14px;
+        .head-fixed {
+            position: fixed;
+            z-index: 99999;
+            width: -webkit-fill-available;
+        }
 
-    }
-    .chn {
-        font-size: 12px;
-    }
-    div#group-div1 {
-        padding: 0px 50px;
-    }
-}
 
-@media(max-width:757px) {
-    .fadepopup .modal-dialog {
-        max-width: 320px;
-        margin: 0 auto;
-    }
+        .head-fixed {
+            position: fixed;
+            z-index: 99999;
+            width: -webkit-fill-available;
+        }
+        
+        ul.list-group {
+            position: fixed;
+            max-width: 300px;
+        }
+        
+        div#submenu1 {
+            overflow-y: scroll;
+            height: 500px;
+        }
+        
+        div#submenu1::-webkit-scrollbar {
+            width: 1em;
+        }
+        
+        @media(max-width:991px) {
+            .fadepopup .modal-dialog {
+                max-width: 550px;
+                margin: 0 auto;
+            }
+        
+            .publish_post {
+                width: 170px;
+                padding: 10px;
+                font-size: 16px;
+            }
+        
+            #title input::placeholder {
+                font-size: 14px;
+        
+            }
+        
+        }
+        
+        @media(max-width:757px) {
+            .fadepopup .modal-dialog {
+                max-width: 320px;
+                margin: 0 auto;
+            }
+            #title input::placeholder {
+                font-size: 14px;
+        
+            }
+        }
 
-    #title input::placeholder {
-        font-size: 14px;
 
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
