@@ -668,6 +668,17 @@
     });
 });
     </script>
+    <script>
+        $(document).ready(function() {
+          $(window).scroll(function() {
+            if ($(document).scrollTop() > 70) {
+              $(".top-header").addClass("head-fixed");
+            } else {
+              $(".top-header").removeClass("head-fixed");
+            }
+          });
+        });
+        </script>
 </body>
 
 </html>

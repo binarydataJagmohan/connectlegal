@@ -5544,21 +5544,12 @@ border-radius: 10px;
         left: 50%;
         outline:none;
         }
-        
 
         .head-fixed {
             position: fixed;
             z-index: 99999;
             width: -webkit-fill-available;
         }
-
-
-        .head-fixed {
-            position: fixed;
-            z-index: 99999;
-            width: -webkit-fill-available;
-        }
-        
         ul.list-group {
             position: fixed;
             max-width: 300px;
@@ -5572,11 +5563,21 @@ border-radius: 10px;
         div#submenu1::-webkit-scrollbar {
             width: 1em;
         }
-        
+        .top-header.header-fixed {
+            position: fixed;
+            z-index: 9;
+            width: -webkit-fill-available;
+        }
         @media(max-width:991px) {
             .fadepopup .modal-dialog {
                 max-width: 550px;
                 margin: 0 auto;
+            }
+            ul.list-group.add-slide {
+                position: fixed;
+                max-width: 200px;
+                height: 500px;
+                overflow-y: scroll;
             }
         
             .publish_post {
