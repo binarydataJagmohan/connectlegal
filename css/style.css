@@ -3220,9 +3220,9 @@ i.crown-p {
         font-size: 16px;
     }
 
-    .sp-r-l {
+    /*.sp-r-l {
         padding: 0 10px;
-    }
+    }*/
 
     h5.mon-txt-cvr {
         font-size: 16px;
@@ -6976,11 +6976,20 @@ a.seebtn.bg-change {
 .why-client #client-part {
     margin-top: 6px;
 }
+img.off-logo {
+    position: relative;
+    left: 10px;
+}
 
-
-
-
-
+#summary-law i.crown-p { 
+    top: unset;
+}
+.box-redi.card-summary img {
+    border-radius: 15px;
+}
+.law-box img {
+    border-radius: 150px;
+}
 
 @media (min-width:1700px) {
 div#myTabContent { 
@@ -7022,6 +7031,13 @@ ul.list-icon-text li a img {
 .user-online-g .modal-popups .btn-close {
     top: 25px;
 }
+.card-summary h5 {
+    padding-top: 1px !important;
+}
+#summary-law p.aed { 
+    margin-top: 2px;
+}
+
 
 }
 
