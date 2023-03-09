@@ -2836,10 +2836,11 @@ button:focus:not(:focus-visible) {
     box-shadow: unset;
 }
 
-img.off-logo {
+/* img.off-logo {
     width: 90%;
     margin: 0 auto;
-}
+} */
+
 
 .offcanvas-body {
     padding: 0;
@@ -7007,3 +7008,7 @@ ul.list-icon-text li a img {
 
 }
 
+/* Prabhat sir */
+#offcanvasScrolling {
+    width: 300px;
+}
