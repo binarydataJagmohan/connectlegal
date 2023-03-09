@@ -6953,4 +6953,57 @@ ul.list-icon-text li a:hover {
     color: #191919;
 }
 
+/* latest code Parbhat sir(09-03-2023)13:51 */
+
+ul#myTab li   i {
+    margin-right: 3px;
+}
+ul#myTab li i.color-smae {
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+}
+
+
+
+@media (min-width:1700px) {
+div#myTabContent { 
+    height: 780px; 
+}
+
+
+
+
+}
+
+
+@media (max-width:1500px) {
+ul.list-icon-text li a { 
+    font-size: 14px;
+    line-height: 40px; 
+}
+ul.list-icon-text li a img {
+    width: 27px; 
+}
+.btn-border { 
+    margin-top: 20px;
+}
+.user-online-g #pills-tabContent { 
+    padding: 20px;
+}
+.btn-border { 
+    font-size: 16px; 
+    width: 150px;
+    height: 50px; 
+}
+.user-online-g 
+ .user-online-g.text-left {
+    margin-top: -35px;
+    margin-bottom: -25px;
+}
+.user-online-g .modal-popups .btn-close {
+    top: 25px;
+}
+
+}
 
