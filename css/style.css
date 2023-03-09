@@ -82,7 +82,7 @@ h1.font-64 {
     font-weight: 600;
     font-size: 45px;
     line-height: 60px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .banner-text p {
@@ -2836,11 +2836,10 @@ button:focus:not(:focus-visible) {
     box-shadow: unset;
 }
 
-/* img.off-logo {
+img.off-logo {
     width: 90%;
     margin: 0 auto;
-} */
-
+}
 
 .offcanvas-body {
     padding: 0;
@@ -6566,11 +6565,11 @@ i.fa-solid.fa-eye.eye-pri {
         padding: 30px 0px;
     }*/
 
-    img.off-logo {
+  /*  img.off-logo {
         width: 40%;
         padding: 0px 25px;
         padding-bottom: 30px;
-    }
+    }*/
 }
 
 @media(min-width:1200px) {
@@ -6910,7 +6909,7 @@ div#myTabContent {
     }
 }
 
-/* parbhat sir code(09-03-23) */
+
 /*Start.......09-03-2023*/
 .providers-view {
     transition: 0.6s;
@@ -6954,7 +6953,7 @@ ul.list-icon-text li a:hover {
     color: #191919;
 }
 
-/* latest code Parbhat sir(09-03-2023)13:51 */
+/**/
 
 ul#myTab li   i {
     margin-right: 3px;
@@ -6964,6 +6963,22 @@ ul#myTab li i.color-smae {
     position: relative;
     top: 3px;
 }
+ #offcanvasScrolling {
+    width: 300px;
+}
+.practice-area {
+    padding: 20px !important;
+}
+a.seebtn.bg-change {
+    position: relative;
+    top: -10px;
+}
+.why-client #client-part {
+    margin-top: 6px;
+}
+
+
+
 
 
 
@@ -6976,6 +6991,8 @@ div#myTabContent {
 
 
 }
+
+
 
 
 @media (max-width:1500px) {
@@ -7008,7 +7025,28 @@ ul.list-icon-text li a img {
 
 }
 
-/* Prabhat sir */
-#offcanvasScrolling {
-    width: 300px;
+
+
+@media (max-width:981px) {
+.practice-area {
+    padding: 50px 0 !important;
 }
+
+
+ 
+}
+
+
+@media (max-width:767px) {
+.align-items-center .aed-class {
+    font-size: 18px;
+}
+a.seebtn.bg-change { 
+    top: 0;
+    padding: 14px 20px;
+}
+
+
+}
+
+
