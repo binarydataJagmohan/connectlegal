@@ -6909,3 +6909,48 @@ div#myTabContent {
     }
 }
 
+/* parbhat sir code(09-03-23) */
+/*Start.......09-03-2023*/
+.providers-view {
+    transition: 0.6s;
+    max-width: 410px;
+    margin: 0 auto;
+}
+.providers-view:hover {
+    transform: scale(1.1); 
+}
+.offcanvas-body {
+    box-shadow: 2px 0px 10px rgb(0 0 0 / 15%);
+}
+ul.menu-left {
+    margin-bottom: 12px;
+}
+.hov-opacity {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.hov-opacity:hover {
+    opacity: 1;
+}
+
+.p-overl {
+    position: relative;
+}
+.offline-box {
+    position: absolute;
+    width: 15.44px;
+    height: 15.44px;
+    background: #FFFFFF;
+    border: 2px solid #3DC9A1;
+    bottom: 8px;
+    right: 2px;
+    border-radius: 100px;
+}
+.text-left ul li {
+    text-align: left;
+}
+ul.list-icon-text li a:hover {
+    color: #191919;
+}
+
+
