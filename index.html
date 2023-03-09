@@ -36,7 +36,7 @@
           <a class="navbar-brand left-off" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
             aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars"></i> Connect Legal</a>
 
-          <div class="offcanvas offcanvas-start" id="menu-sidebar" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+          <div class="offcanvas offcanvas-start menu-sidebar"  data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
             id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
             <div class="offcanvas-body">
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
@@ -259,14 +259,14 @@
                 <input class="form-control class-height-smae" id="exampleFormControlTextarea1" rows="3"
                   placeholder="Describe your issue..."></textarea>
               </div>
-              <div class="btn-group classbtn mt-3 hov-zoom menu-hide" role="group" aria-label="Basic example">
+              <div class="btn-group classbtn mt-3 hov-zoom" role="group" aria-label="Basic example">
                 <a class="btn btn-208C84" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit now</a>
                 <a class="btn btn-3cc7a0"><i class="fa-solid fa-arrow-right"></i></a>
               </div>
 
             </div>
           </div>
-          <div class=" menu-hide  col-lg-5 col-md-12">
+          <div class="col-lg-5 col-md-12">
             <div class="card-va hov-zoom mb-3">
               <div class="row">
                 <div class="col-3 icon-center">
@@ -279,7 +279,7 @@
               </div>
             </div>
 
-            <div class="card-va hov-zoom mb-3 bg-C2DDE4  menu-hide">
+            <div class="card-va hov-zoom mb-3 bg-C2DDE4 ">
               <div class="row">
                 <div class="col-3 icon-center">
                   <img src="images/banner-icon-2.png" alt="banner-icon-2">
@@ -291,7 +291,7 @@
               </div>
             </div>
 
-            <div class="card-va hov-zoom mb-3 bg-EDEEC6  menu-hide">
+            <div class="card-va hov-zoom mb-3 bg-EDEEC6 ">
               <div class="row">
                 <div class="col-3 icon-center">
                   <img src="images/banner-icon-3.png" alt="banner-icon-3">
@@ -303,7 +303,7 @@
               </div>
             </div>
 
-            <div class="card-va hov-zoom mb-3 bg-3cc7a0  menu-hide">
+            <div class="card-va hov-zoom mb-3 bg-3cc7a0 ">
               <div class="row">
                 <div class="col-3 icon-center">
                   <img src="images/banner-icon-4.png" alt="banner-icon-4">
@@ -319,7 +319,7 @@
       </div>
     </section>
 
-    <section class="counter-part bg-F4FEFA  menu-hide">
+    <section class="counter-part bg-F4FEFA ">
       <div class="container">
         <div class="row">
           <div class="col-md-1"></div>
@@ -365,7 +365,7 @@
       </div>
     </section>
 
-    <section class="about-part bg-F4FEFA  menu-hide">
+    <section class="about-part bg-F4FEFA ">
       <div class="container">
         <div class="row reverse-mobile">
           <div class="col-lg-7 col-md-12">
@@ -387,7 +387,7 @@
       </div>
     </section>
 
-    <section class="my-question bg-F4FEFA  menu-hide">
+    <section class="my-question bg-F4FEFA ">
       <div class="container">
         <div id="news-slider" class=" question">
           <div class="post-slide">
@@ -546,7 +546,7 @@
         </div>
     </section>
 
-    <section class="steps-part bg-f4fefa  menu-hide">
+    <section class="steps-part bg-f4fefa ">
       <div class="container">
         <div class="row">
           <div class="col-sm-4"></div>
@@ -613,7 +613,7 @@
                 class="fa-solid fa-arrow-right"></i></span></a></p>
       </div>
     </section>
-    <section class="pro-services  menu-hide" >
+    <section class="pro-services " >
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-12 m-p-0">
@@ -713,7 +713,7 @@
       </div>
     </section>
 
-    <section class="pro-services p-0 mb-5  menu-hide">
+    <section class="pro-services p-0 mb-5 ">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-12 m-p-0">
@@ -859,7 +859,7 @@
         </div>
       </div>
     </section>
-    <section class="why-client  menu-hide">
+    <section class="why-client ">
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
@@ -1014,7 +1014,7 @@
 
 
 
-    <section class="find-legal bg-E8F8F2  menu-hide">
+    <section class="find-legal bg-E8F8F2 ">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 col-md-12">
@@ -1123,7 +1123,7 @@
       </div>
     </section>
 
-    <section class="menu-hide">
+    <section class=">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-12">
@@ -1165,7 +1165,7 @@
       </div>
     </section>
 
-    <section class="why-register bg-E5EAED  menu-hide">
+    <section class="why-register bg-E5EAED ">
       <div class="container">
         <div class="get-started">
           <div class="row ">
@@ -1408,22 +1408,24 @@
   </script>
 
   <!-- left menu priya -->
-<script>
+  <script>
     $(document).ready(function(){
 
-      $("section").click(function(e){
-        // if($('#menu-sidebar').hasClass('show')) {
-          $("#menu-sidebar").removeClass('show');
-          location.reload();
-        // }
-      
-      // $(".offcanvas offcanvas-start").css('visibilty','hidden','display','none');
-      
+      $("section").click(function(){
+      $(".menu-sidebar").removeClass('show');
+      $(".offcanvas offcanvas-start").css('visibilty','hidden','display','none');
       });
-      $(".navbar-brand left-off").click(function(e){
-          e.stopPropagation();
-        });
-    
+
+      $(".menu-sidebar").click(function(event) {
+      event.stopPropagation();
+     });
+
+    //  $(".btn btn-208C84").click(function(event){
+    //    event.preventDefault();
+    //   //  event.stopPropagation();
+    //    $(".modal fade popuphome").show();
+
+    //  })
     });
   </script>
 </body>
