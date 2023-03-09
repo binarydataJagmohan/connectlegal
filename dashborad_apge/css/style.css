@@ -5612,14 +5612,39 @@ border-radius: 10px;
 
 
 
+/**/
+.text-left-part img.off-logo {
+    width: 85%;
+}
+a.btn-close.bg-des {
+    width: 25px;
+    height: 25px;
+    background: #3dc9a1;
+    text-align: center;
+    font-size: 18px;
+    opacity: 2;
+}
 
 
 
 
+@media(min-width:1700px) {
+    .booked.bg-EDEEC6.height-same {
+        height: 85%; 
+    }
+
+
+}
+
+
+@media(max-width:991px) {
+ul.list-group { 
+    max-width: 210px !important;
+}
 
 
 
-
+}
 
 
 
