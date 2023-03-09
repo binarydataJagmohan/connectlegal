@@ -7071,3 +7071,65 @@ a.seebtn.bg-change {
     }
     
     }
+
+    
+.form-part.form-e input {
+    padding: 20px 13px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+h3.font-pop-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #191919;
+}
+p.font-pop-pera {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #191919;
+}
+button.btn-lgn.Send-email-btn {
+    margin-left: 0;
+}
+button.btn-lgn.Send-email-btn {
+    height: unset;
+    width: unset;
+    padding: 15px 50px;
+}
+p.font-pop-pera a {
+    color: #208C84;
+}
+button.btn-lgn.Send-email-btn.black {
+    border: 1px solid #000000;
+    background: #fff0;
+    color: #000;
+}
+
+@media (min-width:1200px) {
+#pills-tabContent.sp-xl {
+    padding: 45px;
+}
+
+}
+
+
+@media (max-width:980px) {
+h3.font-pop-title { 
+    font-size: 25px;
+    line-height: 40px; 
+}
+p.font-pop-pera { 
+    font-size: 15px;
+    line-height: 25px; 
+}
+.form-part.form-e input {
+    padding: 17px 13px;
+    font-size: 15px; 
+}
+button.btn-lgn.Send-email-btn { 
+    padding: 7px 29px;
+}
+
+}
