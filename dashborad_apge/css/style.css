@@ -3583,10 +3583,10 @@ a.add img {
     content: '';
     clear: both;
     position: absolute;
-    top: 45px;
-    left: 50px;
-    height: 12px;
-    width: 12px;
+    height: 16px;
+    right: 0;
+    bottom: 14px;
+    width: 16px;
     background: #00DB75;
     border-radius: 50%;
     border: 2px solid #fff;
@@ -5612,18 +5612,113 @@ border-radius: 10px;
 
 
 
+/**/
+.text-left-part img.off-logo {
+    width: 85%;
+}
+a.btn-close.bg-des {
+    width: 25px;
+    height: 25px;
+    background: #3dc9a1;
+    text-align: center;
+    font-size: 18px;
+    opacity: 2;
+}
 
 
 
 
+@media(min-width:1700px) {
+    .booked.bg-EDEEC6.height-same {
+        height: 85%; 
+    }
+
+
+}
+
+
+@media(max-width:991px) {
+ul.list-group { 
+    max-width: 210px !important;
+}
+
+
+
+}
+
+
+/*Start........10-03-2023*/
+
+.flex-shrink-0 {
+    position: relative;
+}
+.active-on {
+    position: absolute;
+    height: 16px;
+    right: 0;
+    bottom: 0px;
+    width: 16px;
+    background: #00DB75;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.modal-body.sp-top-0 {
+    margin-top: 0;
+}
+.color-there.color-four.bg-3DC9A1 {
+    background: #3DC9A1;
+}
+li.repaly.reply-two.bg-208C84 {
+    background: #208C84 !important;
+}
+
+.msg-body ul li.sender.color-border.line-3DC9A1 {
+    border: 1px solid #3DC9A1; 
+}
+.line-3DC9A1 span {
+    color: #3DC9A1 !important;
+}
+
+.dubai-popup strong {
+    font-weight: 700;
+}
+.modal-content.bg-over {
+    background: #fff0;
+}
 
 
 
 
+@media(max-width:1060px) {
+.left-menu-bar {
+    display: none;
+}
+center img.off-logo {
+    display: none;
+}
+
+}
+
+@media(max-width:991px) {
+.active-on { 
+    bottom:3px; 
+}
 
 
+}
 
 
+@media(max-width:767px) {
+ 
+.chatlist .modal-body.sp-top-0 {
+    padding-right: 0 !important;
+    padding: 0 2px;
+}
+.chat-list .flex-grow-1 p {
+    font-size: 14px !important;
+}
+
+}
 
 
 

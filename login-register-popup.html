@@ -84,110 +84,178 @@
                                       </ul>
                                 </div>
                                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                    <div class="bg-E8F8F2 sp-r-l online-a">
-                                        <div class="row ">
-                                            <div class="col-9"><a href="#">Lawyers online (5)</a></div>
-                                            <div class="col-3 text-right"><a href="#"><i class="fa-solid fa-globe"></i>
-                                                    All</a></div>
-                                        </div>
-                                    </div>
-                                    <div class="user-online-g sp-r-l ">
-                                        <a href="#">
-                                            <div class="row">
-                                                <div class="col-3">
-                                                    <img src="images/legal-1.png" alt="legal-1" class="legal-1">
-                                                </div>
-                                                <div class="col-7">
-                                                    <p class="name-uaser">Madhur Yadav</p>
-                                                    <p class="short-mes">Dubai, UAE</p>
-                                                </div>
-                                                <div class="col-2"><img src="images/prem.png" alt="prem"></div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="user-online-g sp-r-l">
-                                        <a href="#">
-                                            <div class="row">
-                                                <div class="col-3">
-                                                    <img src="images/legal-1.png" alt="legal-1" class="legal-1">
-                                                </div>
-                                                <div class="col-7">
-                                                    <p class="name-uaser">Madhur Yadav</p>
-                                                    <p class="short-mes">Dubai, UAE</p>
-                                                </div>
-                                                <div class="col-2"><img src="images/prem.png" alt="prem"></div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="user-online-g sp-r-l">
-                                        <a href="#">
-                                            <div class="row">
-                                                <div class="col-3">
-                                                    <img src="images/legal-1.png" alt="legal-1" class="legal-1">
-                                                </div>
-                                                <div class="col-9">
-                                                    <p class="name-uaser">Arundhati Chawla</p>
-                                                    <p class="short-mes">Dubai, UAE</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="user-online-g sp-r-l">
-                                        <a href="#">
-                                            <div class="row">
-                                                <div class="col-3">
-                                                    <img src="images/legal-1.png" alt="legal-1" class="legal-1">
-                                                </div>
-                                                <div class="col-9">
-                                                    <p class="name-uaser">Arundhati Chawla</p>
-                                                    <p class="short-mes">Dubai, UAE</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="user-online-g sp-r-l">
-                                        <a href="#">
-                                            <div class="row">
-                                                <div class="col-3">
-                                                    <img src="images/legal-1.png" alt="legal-1" class="legal-1">
-                                                </div>
-                                                <div class="col-9">
-                                                    <p class="name-uaser">Arundhati Chawla</p>
-                                                    <p class="short-mes">Dubai, UAE</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="offline-lawyers">
-                                        <p>Lawyers offline</p>
-                                    </div>
-                                    <div class="user-online-g sp-r-l">
-                                        <a href="#">
-                                            <div class="row">
-                                                <div class="col-3">
-                                                    <img src="images/question-1.png" alt="question-1" class="legal-1">
-                                                </div>
-                                                <div class="col-9">
-                                                    <p class="name-uaser">Arundhati Chawla</p>
-                                                    <p class="short-mes">Dubai, UAE</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="user-online-g sp-r-l">
-                                        <a href="#">
-                                            <div class="row">
-                                                <div class="col-3">
-                                                    <img src="images/question-1.png" alt="question-1" class="legal-1">
-                                                </div>
-                                                <div class="col-9">
-                                                    <p class="name-uaser">Arundhati Chawla</p>
-                                                    <p class="short-mes">Dubai, UAE</p>
-                                                </div>
-                                            </div>
-                                        </a>
+                    <div class="bg-E8F8F2 sp-r-l online-a">
+                        <div class="row ">
+                            <div class="col-9"><a href="#">Lawyers online (5)</a></div>
+                            <div class="col-3 text-right"><a href="#"><i class="fa-solid fa-globe"></i>
+                                    All</a></div>
+                        </div>
+                    </div>
+
+                    <div class="user-online-g sp-r-l ">
+                        <a href="#"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+                            <div class="row align-items-center">
+                                <div class="col-3">
+                                    <div class="legal-1">
+                                        <img src="images/legal-1.png" alt="legal-1">
                                     </div>
                                 </div>
+                                <div class="col-7">
+                                    <p class="name-uaser">Rahmman Abdal</p>
+                                    <p class="short-mes">UAE, Abu Dhabi</p>
+                                </div>
+                                <div class="col-2 p-0"><img src="images/prem.png" alt="prem"></div>
+                            </div>
+
+                            <div class="modal fade modal-popups text-left" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                              <div class="modal-dialog modal-dialog-centered" id="modal-login">
+                                <div class="modal-content"> 
+                                    <div class="modal-header text-right"> 
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                  <div class="modal-body">
+                                   <div class="text-right" id="pills-tabContent">
+                                        
+                                       <div class="user-online-g text-left">
+                                          <a href="#">
+                                           <div class="row">
+                                             <div class="col-sm-2 col-3 pr-0">
+                                               <img src="images/legal-1.png" alt="legal-1" class="legal-1">
+                                             </div>
+                                             <div class="col-sm-7 col-6 pl-0">
+                                               <p class="name-uaser">Madhur Yadav</p>
+                                               <p class="short-mes">Dubai, UAE</p>
+                                             </div>
+                                             <div class="col-3 text-right"><img src="images/prem.png" alt="prem" class="popup-prem"></div>
+                                           </div>
+                                           </a>
+                                         </div>
+                                       <div class="popup-list mt-4">
+                                           <ul class="list-icon-text">
+                                               <li><a href="#"><img src="images/popup/icon-pop-1.png" alt="icon-pop-1"> Post a Question</a></li>
+                                               <li><a href="#"><img src="images/popup/icon-pop-2.png" alt="icon-pop-2">Chat Online</a></li>
+                                               <li><a href="#"><img src="images/popup/icon-pop-3.png" alt="icon-pop-3">Request a Callback</a></li>
+                                               <li><a href="#"><img src="images/popup/icon-pop-4.png" alt="icon-pop-4">Book a Meeting</a></li>
+                                               <li><a href="#"><img src="images/popup/icon-pop-5.png" alt="icon-pop-5">Hire the Lawyer</a></li>
+                                               <li><a href="#"><img src="images/popup/icon-pop-6.png" alt="icon-pop-6">Open Profile</a></li>
+                                           </ul>
+                                           <div class="text-center">
+                                               <button class="btn-border">Dismiss</button>
+                                           </div>
+                                       </div>
+                                   </div>
+                                  </div> 
+                                </div>
+                              </div>
+                            </div>
+
+                        </a>
+                    </div>
+
+                    <div class="user-online-g sp-r-l">
+                        <a href="#">
+                            <div class="row align-items-center">
+                                <div class="col-3">
+                                    <div class="legal-1">
+                                        <img src="images/menu-user-1.png" alt="menu-user-1">
+                                    </div>
+                                </div>
+                                <div class="col-7">
+                                    <p class="name-uaser">Rashid Ali</p>
+                                    <p class="short-mes">UAE, Dubai</p>
+                                </div>
+                                <div class="col-2 p-0"><img src="images/prem.png" alt="prem"></div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="user-online-g sp-r-l">
+                        <a href="#">
+                            <div class="row align-items-center">
+                                <div class="col-3">
+                                    <div class="legal-1">
+                                        <img src="images/menu-user-2.png" alt="menu-user-2">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <p class="name-uaser">Kate Morel</p>
+                                    <p class="short-mes">Qatar</p>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="user-online-g sp-r-l">
+                        <a href="#">
+                            <div class="row align-items-center">
+                                <div class="col-3">
+                                    <div class="legal-1">
+                                        <img src="images/menu-user-3.png" alt="menu-user-3">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <p class="name-uaser">Rehan Abdul</p>
+                                    <p class="short-mes">Turkey</p>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="user-online-g sp-r-l">
+                        <a href="#">
+                            <div class="row align-items-center">
+                                <div class="col-3">
+                                    <div class="legal-1">
+                                        <img src="images/menu-user-4.png" alt="menu-user-4">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <p class="name-uaser">Rahmman Abdal</p>
+                                    <p class="short-mes">UAE, Abu Dhabi</p>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="offline-lawyers">
+                        <p>Lawyers offline</p>
+                    </div>
+                    <div class="user-online-g sp-r-l hov-opacity">
+                        <a href="#">
+                            <div class="row align-items-center">
+                                <div class="col-3">
+                                    <div class="legal-1 p-overl">
+                                        <img src="images/user-offine.png" alt="user-offine">
+                                        <div class="offline-box"></div>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <p class="name-uaser">Mary Pols</p>
+                                    <p class="short-mes">Turkey</p>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="user-online-g sp-r-l hov-opacity">
+                        <a href="#">
+                            <div class="row align-items-center">
+                                <div class="col-3">
+                                    <div class="legal-1 p-overl">
+                                        <img src="images/menu-user-4.png" alt="menu-user-4">
+                                        <div class="offline-box"></div>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <p class="name-uaser">Rodrigo Joms</p>
+                                    <p class="short-mes">UAE, Abu Dhabi</p>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div> 
+                </div>
                             </div>
                         </div>
                     </div>
