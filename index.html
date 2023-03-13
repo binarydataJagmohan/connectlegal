@@ -256,7 +256,7 @@
               </div>
             </div>
           </div>
-          <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+          <div class="offcanvas offcanvas-start " data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
             aria-labelledby="offcanvasWithBothOptionsLabel">
             <div class="offcanvas-header">
               <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdroped with scrolling</h5>
@@ -1464,6 +1464,7 @@
       });
     });
   </script>
+<<<<<<< HEAD
 
 <script>
   $(document).ready(function(){
@@ -1485,6 +1486,29 @@
   //  })
   });
 </script>
+=======
+    <!-- left menu priya -->
+    <script>
+      $(document).ready(function(){
+  
+        $("section").click(function(){
+        $(".menu-sidebar").removeClass('show');
+        $(".offcanvas offcanvas-start").css('visibilty','hidden','display','none');
+        });
+  
+        $(".menu-sidebar").click(function(event) {
+        event.stopPropagation();
+       });
+  
+      //  $(".btn btn-208C84").click(function(event){
+      //    event.preventDefault();
+      //   //  event.stopPropagation();
+      //    $(".modal fade popuphome").show();
+  
+      //  })
+      });
+    </script>
+>>>>>>> eb31a3f8712ad0277b47cc600e022bd2176a8716
 </body>
 
 </html>
