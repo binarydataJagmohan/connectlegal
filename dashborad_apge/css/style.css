@@ -4797,7 +4797,7 @@ h4.book-text.font-samll {
 
 @media(max-width:1366px) {
     .same-flex li {
-        font-size: 16px;
+        font-size: 15px;
     }
     .images img {
         width: 25px;
@@ -5722,3 +5722,103 @@ center img.off-logo {
 
 
 
+input.img-file {
+    position: absolute;
+    z-index: 4;
+    left: 60px;
+    width: 22px;
+    top: 31px;
+    opacity: 0;
+}
+img.postiotion-2.img-- {
+    top: 31px;
+}
+
+.filepond--drop-label {
+    color: #4c4e53;
+}
+
+.filepond--label-action {
+    text-decoration-color: #babdc0;
+}
+
+.filepond--panel-root {
+    border-radius: 2em;
+    background-color: #edf0f4;
+    height: 1em;
+}
+
+.filepond--item-panel {
+    background-color: #595e68;
+}
+
+.filepond--drip-blob {
+    background-color: #7f8a9a;
+}
+
+/* today woark */
+
+.upload-image img {
+    width: 100px;
+}
+
+.upload-image {
+    padding: 50px 0px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    width: 0;
+    border: none;
+    outline: none;
+    transition: width 0.5s ease-in-out;
+}
+
+.search-container input[type="text"].expand {
+    width: 70%;
+}
+
+button.collapse {
+    width: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#pdf-file h3 {
+    text-align: left;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+#pdf-file p {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0px;
+
+}
+
+#bg-dark {
+    background-color: #1A7792;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/*  */
+section.lawyers-part-2.p-0 {
+    margin-top: 60px;
+}
